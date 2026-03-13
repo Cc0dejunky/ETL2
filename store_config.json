@@ -1,0 +1,4327 @@
+﻿{
+    "markup_multiplier": 3.0,
+    "fallback_vendor": "Generic",
+    "static_columns": {
+        "Charge tax": "TRUE",
+        "Status": "active",
+        "Gift card": "FALSE",
+        "Published on online store": "TRUE",
+        "Variant Fulfillment Service": "Dsers-fulfillment-service",
+        "Variant Inventory Tracker": "Dsers-fulfillment-service",
+        "Variant Inventory Policy": "deny"
+    },
+    "spec_normalization_map": {
+        "Number OF Therads": "Thread Count",
+        "Number of Cores": "Core Count",
+        "Battery Capacity[mAh]": "Battery Capacity",
+        "Cell Capacity": "Battery Capacity",
+        "Battery Capacity Range": "Battery Capacity",
+        "Battery lifetime": "Battery Life",
+        "Average Battery Life(in hours)": "Battery Life",
+        "Display screen": "Display Size",
+        "Front Webcam Pixels": "Front Camera",
+        "Second Webcam Pixels": "Rear Camera",
+        "Memory Capacity": "RAM",
+        "Hard Drive Capacity": "Storage",
+        "Tablet Storage Capacity": "Storage",
+        "Graphic Type": "Graphics Card Type",
+        "Weight[g]": "Weight",
+        "Weight (Battery Included)": "Weight",
+        "Width[mm]": "Width",
+        "Height[mm]": "Height",
+        "Depth[mm]": "Depth"
+    },
+    "target_tag_keys": [
+        "Brand Name",
+        "Model Number",
+        "Color",
+        "Material",
+        "Style",
+        "Memory Capacity",
+        "Hard Drive Capacity",
+        "Display Size",
+        "Screen Size",
+        "Display Resolution",
+        "Screen Resolution",
+        "Resolution",
+        "Refresh Rate",
+        "CPU Model",
+        "Processor",
+        "RAM",
+        "RAM Type",
+        "Memory Type",
+        "Storage",
+        "Operating System",
+        "Graphics Card",
+        "GPU",
+        "Cellular",
+        "Network",
+        "Battery",
+        "Battery Capacity",
+        "Connectivity",
+        "Interface",
+        "Wattage",
+        "Voltage",
+        "Panel Type",
+        "Noise Cancellation",
+        "Driver Size",
+        "Impedance",
+        "Frequency Response",
+        "Waterproof Rating",
+        "Water Resistance",
+        "Camera",
+        "Video Resolution",
+        "Night Vision",
+        "SIM Card",
+        "Charging Speed",
+        "Weight",
+        "Dimensions",
+        "Compatible Model",
+        "Print Speed",
+        "Max Resolution",
+        "Ink Type",
+        "Page Count",
+        "Output Power"
+    ],
+    "brands": [
+        "Remazy",
+        "AyeBeau",
+        "M5Stack",
+        "Sherway",
+        "siindoo",
+        "SHIWOJIA",
+        "HQCAM",
+        "CUGUU",
+        "iHeylinkit",
+        "SZEGYCHX",
+        "Game Falcon",
+        "IPUMYNO",
+        "XMSJ",
+        "BLACKVIEW",
+        "Blackview",
+        "Orico",
+        "ORICO",
+        "EverShine",
+        "OOTDTY",
+        "READYYEAH",
+        "Glavey",
+        "AEEZO-US",
+        "QearFun",
+        "AOTESIER",
+        "yeah magic",
+        "YEAH MAGIC",
+        "URAO",
+        "OnePlus",
+        "PRITOM",
+        "BDF",
+        "Higole",
+        "SZBOX",
+        "GenMachine",
+        "polttopuut",
+        "MLLSE",
+        "KH",
+        "WYMECT",
+        "YOAINGO",
+        "CHOYONG",
+        "MAIMEIMI",
+        "ATUOTIN",
+        "Razer",
+        "APWIKOGER",
+        "alloet",
+        "STTKGZD",
+        "KY-CROSEA",
+        "CEYYOR",
+        "VKTECH",
+        "ZOMBIES CAT",
+        "Briame",
+        "NUBWO",
+        "QCY",
+        "MCHOSE",
+        "Picun",
+        "BASEUS",
+        "Baseus",
+        "Oneodio",
+        "CHUWI",
+        "T.F.SKYWINDINTL",
+        "METALFISH",
+        "Aigo",
+        "SOYO",
+        "OTTOCAST",
+        "FiiO",
+        "FIIO",
+        "PUSKILL",
+        "Kllisre",
+        "Rownfusny",
+        "StoreSkill",
+        "Tuya",
+        "Apple",
+        "Samsung",
+        "SAMSUNG",
+        "Google",
+        "Xiaomi",
+        "Motorola",
+        "Nokia",
+        "Sony",
+        "Oppo",
+        "Vivo",
+        "Realme",
+        "Honor",
+        "ZTE",
+        "Nothing",
+        "Apple iPad",
+        "Samsung Galaxy Tab",
+        "Lenovo Tab",
+        "Amazon Fire",
+        "Huawei MatePad",
+        "Microsoft Surface",
+        "Xiaomi Pad",
+        "Alldocube",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Acer",
+        "Asus",
+        "MSI",
+        "LG Gram",
+        "Microsoft Surface Laptop",
+        "Samsung Galaxy Book",
+        "Gigabyte",
+        "Alienware",
+        "Framework",
+        "System76",
+        "Intel",
+        "AMD",
+        "NVIDIA",
+        "Corsair",
+        "NZXT",
+        "Cooler Master",
+        "Thermaltake",
+        "EVGA",
+        "ASRock",
+        "Gigabyte AORUS",
+        "MSI Gaming",
+        "Lian Li",
+        "Fractal Design",
+        "Seagate",
+        "Western Digital",
+        "Crucial",
+        "Kingston",
+        "G.Skill",
+        "HyperX",
+        "Sabrent",
+        "Be Quiet!",
+        "Noctua",
+        "Panasonic",
+        "Philips",
+        "Toshiba",
+        "Sharp",
+        "Hisense",
+        "Vizio",
+        "JBL",
+        "Bose",
+        "Sennheiser",
+        "Anker",
+        "Belkin",
+        "Logitech",
+        "Canon",
+        "Nikon",
+        "GoPro",
+        "Garmin",
+        "Fitbit",
+        "Ugreen",
+        "Spigen",
+        "OtterBox",
+        "Caseology",
+        "JSAUX",
+        "Aukey",
+        "Sandisk",
+        "Lexar",
+        "TP-Link",
+        "Netgear",
+        "HyperDrive",
+        "Twelve South",
+        "Mophie",
+        "LG",
+        "Microsoft"
+    ],
+    "master_library": {
+        "AOTESIER Model": [
+            "I7 CPU"
+        ],
+        "Brand Name": [
+            "AOTESIER",
+            "Glavey",
+            "AEEZO-US",
+            "QearFun",
+            "yeah magic",
+            "URAO",
+            "OnePlus",
+            "PRITOM",
+            "BDF",
+            "NoEnName_Null",
+            "SZBOX",
+            "KH",
+            "GenMachine",
+            "polttopuut",
+            "MLLSE",
+            "WYMECT",
+            "YOAINGO,CHOYONG",
+            "MAIMEIMI",
+            "ATUOTIN",
+            "XMSJ",
+            "Razer",
+            "APWIKOGER",
+            "alloet",
+            "STTKGZD",
+            "KY-CROSEA",
+            "CEYYOR",
+            "VKTECH",
+            "ZOMBIES CAT",
+            "Briame",
+            "NUBWO",
+            "QCY",
+            "MCHOSE",
+            "Picun",
+            "BASEUS",
+            "Oneodio",
+            "CHUWI",
+            "Apple",
+            "Erilles",
+            "Hichomeow",
+            "other",
+            "gootrades",
+            "occkic",
+            "Acer",
+            "yggcoo",
+            "YIYUEQIANLI",
+            "T&amp;G",
+            "kebidumei",
+            "EASTONG",
+            "PJPK",
+            "BLINGCASE",
+            "NONE",
+            "INNOFOVO",
+            "elough",
+            "VaKee",
+            "Odelettevcy",
+            "HYOXL",
+            "Kllisre",
+            "PUSKILL",
+            "StoreSkill",
+            "SAMSUNG",
+            "T.F.SKYWINDINTL",
+            "METALFISH",
+            "Aigo",
+            "SOYO",
+            "Intel",
+            "AMD",
+            "AEVYVKV",
+            "AideeMaster",
+            "FiiO",
+            "T&G",
+            "YOAINGO",
+            "CHOYONG",
+            "CARPBABA",
+            "ROSEKIND",
+            "Jogrytece",
+            "Marie’s",
+            "MIJIA",
+            "XUESEVEN",
+            "ZLinKJ",
+            "FLIXIVI",
+            "MouZYuan",
+            "AKABEILA",
+            "SIXEVE",
+            "DESERTCAT",
+            "Ola Esporte",
+            "COTAUL",
+            "LIGE",
+            "PENGAGAR",
+            "yaocx",
+            "KGG",
+            "paazomu",
+            "BOALZETD",
+            "vaiquela",
+            "RNABAU",
+            "QIYEAH",
+            "LOMAXFR"
+        ],
+        "Bundle": [
+            "Bundle 1"
+        ],
+        "Certification": [
+            "CE,FCC,RoHS",
+            "CE",
+            "CE,FCC",
+            "None",
+            "CE,FCC,RoHS,UL,weee",
+            "CE,RoHS",
+            "CE,FCC,RoHS,KC",
+            "FCC",
+            "RoHS",
+            "UL",
+            "weee",
+            "KC",
+            "Dot",
+            "EAC",
+            "EPA",
+            "GMP",
+            "TGA",
+            "pse",
+            "MIC",
+            "BQB",
+            "NCC",
+            "SRRC",
+            "PRO65",
+            "TPCH",
+            "BPA",
+            "CEC",
+            "DOE",
+            "fda",
+            "CPSC",
+            "Reach"
+        ],
+        "Chipset Type": [
+            "I7 CPU",
+            "Other"
+        ],
+        "Dispaly Ratio": [
+            "I7 CPU",
+            "16:9"
+        ],
+        "Display Resolution": [
+            "I7 CPU",
+            "1024x600",
+            "1920x1080",
+            "1280x800",
+            "2392*1080",
+            "1920x1200",
+            "2160x1440",
+            "320x240",
+            "240x320"
+        ],
+        "Display Size": [
+            "&gt;30\"",
+            "7\"",
+            "22Inches 550mm",
+            "10\"",
+            "6.77",
+            "10.1\"",
+            "7\",8\"",
+            "10.3",
+            "10.51",
+            "12.3\"",
+            "13.3\"",
+            "14.1\"",
+            "1.8 inches",
+            "2\" - 4\"",
+            "1.32",
+            "1.83",
+            "1.4 inches",
+            "No",
+            "30\"",
+            "22\"",
+            "6.77\"",
+            "10.3\"",
+            "10.51\"",
+            "1.8\"",
+            "None",
+            "1.32\"",
+            "1.83\"",
+            "1.4\"",
+            "4.0\"",
+            "2.01\"",
+            "1.73\"",
+            "2.04\"",
+            "1.91\"",
+            "1.1\"",
+            "1.96\"",
+            "44\"",
+            "1.28\""
+        ],
+        "Display Type": [
+            "None",
+            "LCD",
+            "Touch Screen"
+        ],
+        "Drive Type": [
+            "No CD ROM"
+        ],
+        "Graphics Card Chipset": [
+            "GT 240",
+            "HD Graphics",
+            "AMD R5",
+            "AMD Others",
+            "Intel UHD Graphics 610"
+        ],
+        "Graphics Card Model": [
+            "MX250",
+            "RTX3060TI",
+            "Intel UHD Graphics",
+            "Intel UHD",
+            "Intel UHD Graphics 617",
+            "Apple M1 8-core",
+            "Radeon R5 M420"
+        ],
+        "Graphics Card Type": [
+            "Integrated Card",
+            "Dedicated Card",
+            "Integrated"
+        ],
+        "HDD Rotation Speed": [
+            "SSD"
+        ],
+        "Hard Drive Capacity": [
+            "250GB",
+            "1TB",
+            "128 GB",
+            "≥ 1.5TB",
+            "500GB",
+            "512GB",
+            "256 GB"
+        ],
+        "High-concerned chemical": [
+            "None",
+            "A-alpha-C (2-Amino-9H-pyrido[2,3-b]indole)",
+            "Acetaldehyde",
+            "A-alpha-C (2-Amino-9H-pyrido[2",
+            "3-b]indole)"
+        ],
+        "Max Boost Speed": [
+            "I7 CPU",
+            "2.41GHZ"
+        ],
+        "Memory Capacity": [
+            "8 GB,8 GB",
+            "1 GB",
+            "2 GB",
+            "N/A,16 GB",
+            "≥8GB",
+            "4GB",
+            "3GB",
+            "8 GB",
+            "≥ 4GB",
+            "8 GB,32 GB",
+            "12GB",
+            "16 GB,16 GB"
+        ],
+        "Model Number": [
+            "I7 CPU",
+            "Q22",
+            "AMD Ryzen 5 5600gt",
+            "Gole 1 Pro",
+            "JX2",
+            "K10",
+            "Ren5000 5300U",
+            "G2 Pro",
+            "R9",
+            "N100",
+            "S1",
+            "M1",
+            "002",
+            "MP3 Player",
+            "MP3 MP4",
+            "P8668",
+            "HJ021",
+            "908/908-02/908-06",
+            "sfx400",
+            "BLACK DIMOND-550M",
+            "SFX-600W",
+            "500WATX",
+            "AK800",
+            "(Decorative Films)",
+            "For Pencil1 Pencil2"
+        ],
+        "Mouse &amp; Keyboard": [
+            "No"
+        ],
+        "Operating System": [
+            "Windows 10",
+            "Android 6.0",
+            "Android 13",
+            "macOS",
+            "Android 15",
+            "Android 12",
+            "Android 11.0",
+            "Windows 11",
+            "Apple Mac OS 10.14",
+            "Apple Mac OS 11 (Big Sur)"
+        ],
+        "Origin": [
+            "Mainland China",
+            "Mainland China,Mainland China",
+            "Taiwan (China)",
+            "MY(Origin)"
+        ],
+        "Port": [
+            "vga",
+            "VGA/Audio/RJ45/USB/HDMI/RS232",
+            "USB2.0/USB3.0",
+            "USB3.0, USB2.0, Type-C, DP",
+            "Multiple interfaces",
+            "HDMI x1, D P x 1 , Headphone Jack x2",
+            "LAN HDMI USB",
+            "2xUSB 2.0",
+            "2 x USB-C",
+            "2xUSB 3.0,Mini HDMI-Compatible",
+            "RJ-45,HDMI-Compatible",
+            "USB3.0",
+            "USB2.0",
+            "Type-C",
+            "DP",
+            "HDMI x1",
+            "D P x 1",
+            "Headphone Jack x2",
+            "2xUSB 3.0",
+            "Mini HDMI-Compatible",
+            "RJ-45",
+            "HDMI-Compatible"
+        ],
+        "Power (W)": [
+            "I7 CPU",
+            "Other"
+        ],
+        "Processor Core": [
+            "Octa Core",
+            "Quad Core",
+            "Hexa Core"
+        ],
+        "Processor Main Frequency": [
+            "A8 7680",
+            "2.3",
+            "1.5-2.5GHz",
+            "2.6GHz Up to 3.8GHz"
+        ],
+        "Processor Model Number": [
+            "Intel Celeron",
+            "Intel other"
+        ],
+        "RAM Type": [
+            "DDR3",
+            "DDR4"
+        ],
+        "Type": [
+            "Desktop",
+            "All-In-One",
+            "Pocket PC,Mini PC",
+            "Mini Desktop,Mini PC",
+            "Barebone System",
+            "Earbud (In Ear)",
+            "2 in 1 laptop,Intel N150 2 in 1 Laptop",
+            "Notebook",
+            "Ultraslim",
+            "Gaming Laptop",
+            "Dogs,Harnesses",
+            "Flip Case",
+            "wearable",
+            "USB",
+            "Protective Shell/Skin",
+            "On Wrist",
+            "DDR4",
+            "DDR3",
+            "6-Core",
+            "Quad-Core",
+            "18",
+            "fourteen cores",
+            "DDR3,DDR3 1.5V /DDR3L 1.35V",
+            "Pocket PC",
+            "Mini PC",
+            "Mini Desktop",
+            "2 in 1 laptop",
+            "Intel N150 2 in 1 Laptop",
+            "Dogs",
+            "Harnesses",
+            "Thread Blanket/Towel Blanket",
+            "Acrylic Paints",
+            "Type-c to lighting / lighting to lighting",
+            "Belt"
+        ],
+        "Video Memory Type": [
+            "With the main memory",
+            "SDDR3",
+            "GDDR4",
+            "GDDR6",
+            "GDDR3",
+            "GDDR5"
+        ],
+        "Weight": [
+            "12",
+            "13kg",
+            "13.45kg",
+            "4KG",
+            "0.6kg",
+            "1.2",
+            "1KG",
+            "150",
+            "200",
+            "510g",
+            "225",
+            "265",
+            "244",
+            "231",
+            "476",
+            "&lt; 1.5 KG",
+            "2.75 lbs",
+            "2.8 lbs",
+            "1.8 KG - 2.0 KG",
+            "255",
+            "52",
+            "< 1.5 KG",
+            "0.02KG",
+            "65",
+            "145",
+            "50g"
+        ],
+        "color": [
+            "black"
+        ],
+        "Camera": [
+            "Second Webcam,Front Webcam",
+            "Front Camera,Second Webcam,Front Webcam",
+            "Front Webcam",
+            "Second Webcam",
+            "Front Camera,Front Webcam",
+            "Front Camera"
+        ],
+        "Cell Capacity": [
+            "3000mAh",
+            "2500mAH",
+            "5000mAH",
+            "4000 MAH",
+            "4000 mah",
+            "3500MAH",
+            "5000",
+            "5000MAH/3.7V"
+        ],
+        "Extend Port": [
+            "DC Jack,Earphone Jack,TF card,Micro USB",
+            "3G External,Earphone Jack,TF card,Type-C",
+            "Earphone Jack,TF card,Micro USB",
+            "DC Jack,TF card,Micro USB",
+            "Earphone Jack,TF card,Type-C",
+            "Earphone Jack,OTG,TF card,Type-C",
+            "TF card,USB,Type-C",
+            "DC Jack",
+            "Earphone Jack",
+            "TF card",
+            "Micro USB",
+            "3G External",
+            "Type-C",
+            "OTG",
+            "USB"
+        ],
+        "Feature": [
+            "ULTRA SLIM,Dual Cameras",
+            "FM,ULTRA SLIM,Dual Cameras,Kids Tablets",
+            "FM,OTG,ULTRA SLIM,Dual Cameras,Tablet Pen",
+            "Dual Cameras",
+            "FM,Dual Cameras,Kids Tablets",
+            "ULTRA SLIM,OTG",
+            "FM,OTG,ULTRA SLIM,Dual Cameras",
+            "FM",
+            "FM,OTG",
+            "Bluetooth,Camera",
+            "Phone Function",
+            "Breakaway,Padded,Quick Release,Reflective",
+            "ULTRA SLIM",
+            "Kids Tablets",
+            "OTG",
+            "Tablet Pen",
+            "Bluetooth",
+            "Camera",
+            "Breakaway",
+            "Padded",
+            "Quick Release",
+            "Reflective",
+            "Self-Adhesive",
+            "Palm Rejection",
+            "Stop Watch",
+            "Back Light",
+            "Shock Resistant",
+            "Led Display",
+            "Auto Date",
+            "Complete Calendar"
+        ],
+        "Front Webcam Pixels": [
+            "1 MP",
+            "0.3MP",
+            "5 MP",
+            "8MP",
+            "Other",
+            "2 MP"
+        ],
+        "Item Type": [
+            "Tablet PC",
+            "Multi-tone &amp; Claxon Horns",
+            "2 in 1 Tablets",
+            "Wireless Megaphone With Microphone",
+            "Antenna",
+            "Multi-tone & Claxon Horns",
+            "Earphone Cases"
+        ],
+        "Net Weight": [
+            "&gt;500g",
+            "400 - 500 G",
+            ">500g"
+        ],
+        "Network Communiction": [
+            "WiFi",
+            "Built-in 3G",
+            "Bluetooth-Compatible,WLAN,WiFi",
+            "Bluetooth-Compatible,WLAN,LAN,WiFi",
+            "Bluetooth-Compatible",
+            "WLAN",
+            "LAN"
+        ],
+        "Package": [
+            "Yes",
+            "yes",
+            "YES",
+            "No"
+        ],
+        "Panel Type": [
+            "IPS"
+        ],
+        "Processor Manufacture": [
+            "ROCKCHIP",
+            "ALLWINNER",
+            "MTK",
+            "AMD"
+        ],
+        "Processor Model": [
+            "others",
+            "Arm",
+            "Intel Celeron J4105",
+            "N5105",
+            "AMD Ryze 3 5300U",
+            "Twin Lake N150"
+        ],
+        "Second Webcam Pixels": [
+            "2 MP",
+            "8MP",
+            "13mp",
+            "Other",
+            "5 MP"
+        ],
+        "Supporting Language": [
+            "English,Russian,Spanish,Swedish,Portuguese,Turkish,Italian,German,Chinese,French,Japanese,Polish,Ukrainian,Greek,Hebrew",
+            "English,Greek,Turkish,German,Portuguese,Spanish,Swedish,Polish,French,Ukrainian,Chinese,Italian,Japanese,Russian",
+            "English",
+            "Russian",
+            "Spanish",
+            "Swedish",
+            "Portuguese",
+            "Turkish",
+            "Italian",
+            "German",
+            "Chinese",
+            "French",
+            "Japanese",
+            "Polish",
+            "Ukrainian",
+            "Greek",
+            "Hebrew"
+        ],
+        "Tablet Storage Capacity": [
+            "16 GB",
+            "32 GB",
+            "64 GB",
+            "128 GB"
+        ],
+        "Touch Screen Type": [
+            "Capacitive Screen"
+        ],
+        "Battery lifetime": [
+            "38000 - 45000",
+            "3 - 5",
+            "369 - 459",
+            "up to 7 - 9 hour",
+            "up to 4 - 6 hour"
+        ],
+        "Charging Time(H)": [
+            "2-3",
+            "2",
+            "3",
+            "2~3",
+            "8",
+            "12"
+        ],
+        "Google Play": [
+            "Yes"
+        ],
+        "Hign-concerned Chemical": [
+            "None"
+        ],
+        "Item Condition": [
+            "New",
+            "Used"
+        ],
+        "Network": [
+            "WiFi"
+        ],
+        "Refurbished item grade": [
+            "Excellent"
+        ],
+        "Standby Time(H)": [
+            "200",
+            "48H",
+            "240",
+            "45",
+            "36"
+        ],
+        "Working Time(H)": [
+            "4-9",
+            "3",
+            "4~12",
+            "36",
+            "8"
+        ],
+        "Active Noise-Cancellation": [
+            "Yes",
+            "No",
+            "PASSIVE",
+            "Active"
+        ],
+        "Category": [
+            "Earphones &amp; Headphones",
+            "Speakers",
+            "Smart Watches",
+            "Earphones & Headphones"
+        ],
+        "Charging Method": [
+            "cable"
+        ],
+        "Choice": [
+            "yes",
+            "Yes"
+        ],
+        "Codecs": [
+            "None",
+            "AAC",
+            "sbc",
+            "AAC,sbc",
+            "sbc,LDAC",
+            "LDAC"
+        ],
+        "Communication": [
+            "Wired",
+            "Wireless+Wired",
+            "WireLess",
+            "Bluetooth",
+            "Induction",
+            "AUX,USB,Bluetooth",
+            "USB,Bluetooth",
+            "AUX",
+            "USB",
+            "True wireless",
+            "Audio Line"
+        ],
+        "Connectors": [
+            "3.5 MM",
+            "Type c",
+            "USB"
+        ],
+        "Control Button": [
+            "Yes",
+            "No"
+        ],
+        "Depth[mm]": [
+            "252",
+            "167mm",
+            "100"
+        ],
+        "Driver Diameter": [
+            "40",
+            "50",
+            "53"
+        ],
+        "Earcups Type": [
+            "Sealed"
+        ],
+        "Features": [
+            "With microphone",
+            "Waterproof,With microphone",
+            "With microphone,Detachable Cable,Dual Connection,Playback Control",
+            "With microphone,Detachable Cable",
+            "Detachable Cable,Active Noice Cancelling,Dual Connection",
+            "Waterproof,Active Noice Cancelling,Dual Connection,fone de ouvido bluetooth/over ear headset",
+            "Tough Case",
+            "Waterproof",
+            "Detachable Cable",
+            "Dual Connection",
+            "Playback Control",
+            "Active Noice Cancelling",
+            "fone de ouvido bluetooth/over ear headset"
+        ],
+        "Frequency Response Range": [
+            "20 - 20000",
+            "20 - 40000",
+            "100 - 8000"
+        ],
+        "Function": [
+            "for Video Game,for Flying,Common Headphone,For Mobile Phone,HiFi Headphone,Sport,Kids' Headphones,For Outdoor,For Study",
+            "For Internet Bar,for Video Game,Common Headphone,For Mobile Phone,HiFi Headphone,Sport,For Outdoor,For Office,For Study",
+            "For Internet Bar,for Video Game,Common Headphone,For Mobile Phone,HiFi Headphone,Sport,For Outdoor,For Office,For DJ,For Study",
+            "for Video Game,for Flying,Common Headphone,For Mobile Phone,for Powersports,Kids' Headphones,For Outdoor,For Office,For Study",
+            "For Internet Bar,for Video Game,Common Headphone,For Mobile Phone,HiFi Headphone,For Office,For DJ",
+            "For Internet Bar,for Video Game,Common Headphone,For Mobile Phone,Sport,For Outdoor,For Office,For DJ,For Study",
+            "For Internet Bar,for Video Game,Common Headphone,HiFi Headphone,Sport,For Outdoor,For Office,For Study",
+            "for Video Game,Common Headphone,For Mobile Phone,HiFi Headphone,Sport,For Outdoor,For Office,For DJ,For Study",
+            "For Mobile Phone,For Internet Bar,for Video Game,Monitor Headphone,HiFi Headphone,Sport,Common Headphone",
+            "Office/Entertainment/Gaming",
+            "Voice Recorder,E-Book Reading,Bluetooth,Build in Speaker,Photo Viewer",
+            "Touch Screen,Voice Recorder,E-Book Reading,FM Radio,Bluetooth,Photo Viewer,Digital Camera,World Clock,Touch Keys",
+            "Passometer,fitness tracker,sleep tracker,Message Reminder,Call Reminder,Answer Call,Push Message,Calorie Counter,Heart Rate Tracker",
+            "Passometer,fitness tracker,sleep tracker,Message Reminder,Call Reminder,Answer Call,Dial Call,Push Message,Alarm Clock",
+            "Voice recorder, E-Book Reading, FM Radio",
+            "for Video Game",
+            "for Flying",
+            "Common Headphone",
+            "For Mobile Phone",
+            "HiFi Headphone",
+            "Sport",
+            "Kids' Headphones",
+            "For Outdoor",
+            "For Study",
+            "For Internet Bar",
+            "For Office",
+            "For DJ",
+            "for Powersports",
+            "Monitor Headphone",
+            "Voice Recorder",
+            "E-Book Reading",
+            "Bluetooth",
+            "Build in Speaker",
+            "Photo Viewer",
+            "Passometer",
+            "fitness tracker",
+            "sleep tracker",
+            "Message Reminder",
+            "Call Reminder",
+            "Answer Call",
+            "Push Message",
+            "Calorie Counter",
+            "Heart Rate Tracker",
+            "Dial Call",
+            "Alarm Clock",
+            "Voice recorder",
+            "FM Radio",
+            "Package",
+            "Google Play",
+            "Active Noise-Cancellation",
+            "Choice",
+            "Control Button",
+            "Sound Isolating",
+            "Volume Control",
+            "With Microphone",
+            "Bluetooth Version",
+            "Built In Radiator",
+            "Built-In Gps",
+            "Front Camera Quantity",
+            "Mil-Std-810G",
+            "Nfc",
+            "Touch Screen",
+            "Wifi",
+            "Semi_Choice",
+            "Balanced Out",
+            "External Memory",
+            "Is Wireless",
+            "Waterproof",
+            "Support App",
+            "Max Output",
+            "Total Harmonic Distortion",
+            "Number Of Drivers",
+            "Voice Assistant Built-In",
+            "Expandable Storage",
+            "Have Speakers Or Not",
+            "Screen",
+            "Supports Ebook Reading",
+            "Supports Recording Function",
+            "Battery",
+            "Built-In Microphone",
+            "Number Of Loudspeaker Enclosure",
+            "Number Of Devices Connectable Simultaneously",
+            "Support Memory Card",
+            "Channels",
+            "Voice Control",
+            "Battery Included",
+            "Inbox Adaptor",
+            "App Download Available",
+            "Band Detachable",
+            "Gps",
+            "Mechanism",
+            "Multiple Dials",
+            "Wi-Fi",
+            "Is Smart Device",
+            "Cooling Fin",
+            "Fans",
+            "Is Batteries Included",
+            "3.5Mm Headphone Port",
+            "Rear Camera Quantity",
+            "Amplifier",
+            "Countdown",
+            "Calculators",
+            "24 hour instruction",
+            "Chronograph",
+            "Calendar",
+            "Noctilucent",
+            "Mood Tracker",
+            "Remote Control",
+            "Big Three Needles",
+            "Small Second",
+            "World Time",
+            "Permanent Calendar",
+            "Multiple Time Zone",
+            "Power Reserve",
+            "GMT Two Places",
+            "Perspective Window",
+            "week",
+            "Speed Measurement",
+            "Month",
+            "Interactive Music",
+            "Lighting",
+            "Thermometer",
+            "Oxymeter",
+            "Shock Resistant",
+            "Phase of the Moon",
+            "Sim Card Available",
+            "Sim Card Slot",
+            "Altitude Meter",
+            "tourbillon",
+            "DIVER",
+            "PRAYER",
+            "Moisture Measurement",
+            "Attemper",
+            "Compass",
+            "Battery Life"
+        ],
+        "Headphone Pads Material": [
+            "Synthetic leather",
+            "Memory Foam",
+            "Fabric"
+        ],
+        "Height[mm]": [
+            "136",
+            "190mm",
+            "72"
+        ],
+        "Impedance Range": [
+            "up to 32 Ω",
+            "from 33 to 100 Ω"
+        ],
+        "Is wireless": [
+            "No",
+            "Yes"
+        ],
+        "Line Length": [
+            "1.2",
+            "2",
+            "1.5",
+            "2.2Mm"
+        ],
+        "Magnet Type": [
+            "Ferrite",
+            "Other",
+            "Neodymium"
+        ],
+        "Material": [
+            "Metal,Leather",
+            "ABS,Plastic,Leather",
+            "Plastic",
+            "ABS,Plastic",
+            "Leather,PC,ABS,Silica Gel",
+            "Leather,Plastic",
+            "ABS",
+            "Metal,Plastic",
+            "Metal,ABS,Plastic",
+            "ABS,Plastic,Leather,Silica Gel",
+            "Metal,PC,ABS",
+            "Others",
+            "Rubber",
+            "Metal",
+            "Nylon",
+            "Plastics Hard Case",
+            "Glass",
+            "Leather",
+            "PC",
+            "Silica Gel",
+            "100% Cashmere",
+            "100% Polyester",
+            "PVC",
+            "Silicone"
+        ],
+        "Maximum wireless range[m]": [
+            "&lt;10m",
+            "10m-20m",
+            "<10m"
+        ],
+        "NFC Technology": [
+            "No"
+        ],
+        "Number Of Drivers": [
+            "2",
+            "1",
+            "4",
+            "3"
+        ],
+        "Package List": [
+            "User Manual,Charging Cable",
+            "User Manual,Carrying Bag,3.5mm Jack Adapter,USB Type-C Adapter",
+            "User Manual,Charging Cable,USB Type-C Adapter",
+            "User Manual,Charging Cable,3.5mm Jack Adapter",
+            "User Manual,Charging Cable,USB Type-C Adapter,Detachable Audio Cable",
+            "User Manual,Charging Cable,Detachable Audio Cable",
+            "User Manual,Carrying Bag,Detachable Audio Cable",
+            "User Manual",
+            "Charging Cable",
+            "Carrying Bag",
+            "3.5mm Jack Adapter",
+            "USB Type-C Adapter",
+            "Detachable Audio Cable"
+        ],
+        "Plug Type": [
+            "Line Type",
+            "None",
+            "EU Plug"
+        ],
+        "Resistance": [
+            "32",
+            "32Ω±15%",
+            "33",
+            "45",
+            "32ΩΩ"
+        ],
+        "Sound Isolating": [
+            "Yes"
+        ],
+        "Style": [
+            "Wired in-ear headphones",
+            "Ear Hook",
+            "Wireless headphone &amp; headset",
+            "Wired headphone &amp; headset",
+            "MP3",
+            "MP4",
+            "Cute Style",
+            "Fashion",
+            "SPORT",
+            "Portable",
+            "Wireless headphone & headset",
+            "Wired headphone & headset",
+            "Modern Style",
+            "Classic Style",
+            "Tws in-ear headphones",
+            "Cute",
+            "Healthy",
+            "Fashion & Casual",
+            "simple"
+        ],
+        "Support APP": [
+            "No",
+            "Yes"
+        ],
+        "Support Memory Card": [
+            "No",
+            "Yes"
+        ],
+        "Vocalism Principle": [
+            "Hybrid Technology",
+            "Dynamic"
+        ],
+        "Voice assistant built-in": [
+            "No",
+            "Yes"
+        ],
+        "Volume Control": [
+            "Yes",
+            "No"
+        ],
+        "Waterproof": [
+            "No",
+            "Yes"
+        ],
+        "Weight[g]": [
+            "200",
+            "510g",
+            "225",
+            "265",
+            "244",
+            "231",
+            "476",
+            "255",
+            "52"
+        ],
+        "Width[mm]": [
+            "195",
+            "58mm",
+            "92",
+            "50"
+        ],
+        "Wireless Type": [
+            "Bluetooth",
+            "Bluetooth,RF",
+            "None",
+            "RF"
+        ],
+        "With Microphone": [
+            "Yes"
+        ],
+        "COLOR": [
+            "Black , white",
+            "Black",
+            "white"
+        ],
+        "CPU": [
+            "I7 CPU",
+            "Intel Celeron J4105"
+        ],
+        "Certificate": [
+            "FCC/ CE /CCC /ROHS"
+        ],
+        "Contrast": [
+            "1000:1"
+        ],
+        "Installation": [
+            "Embedded, desktop, wall-mounted, cantilever",
+            "Embedded",
+            "desktop",
+            "wall-mounted",
+            "cantilever"
+        ],
+        "Optional Function": [
+            "Camera,Touchscreen,WIFI,Bluetooth",
+            "Camera",
+            "Touchscreen",
+            "WIFI",
+            "Bluetooth"
+        ],
+        "Resolution": [
+            "1920*1080",
+            "360p",
+            "240*296",
+            "240",
+            "430*430",
+            "240*284",
+            "128*160",
+            "240/482",
+            "368*448",
+            "240*280",
+            "126*294",
+            "320*386",
+            "other",
+            "240*240",
+            "240*260"
+        ],
+        "Screen scale": [
+            "16:9"
+        ],
+        "System": [
+            "WIN 10",
+            "Android OS,iOS",
+            "Android Wear,iOS",
+            "Android OS",
+            "iOS",
+            "Android Wear",
+            "None",
+            "Proprietary OS",
+            "Wear OS",
+            "Color OS",
+            "HarmonyOS",
+            "FreeRTOS",
+            "Wacth OS",
+            "Zepp OS",
+            "DuWear",
+            "Tizen OS"
+        ],
+        "linterface": [
+            "VGA/Audio/RJ45/USB/HDMI/RS232"
+        ],
+        "3.5mm Headphone Port": [
+            "No"
+        ],
+        "Battery Capacity Range": [
+            "6000-7499mAh"
+        ],
+        "Battery Capacity(mAh)": [
+            "7000",
+            "120-180mAh",
+            "1000",
+            "180-220mAh",
+            "220-300mah",
+            "300-450mah",
+            ">450mAh",
+            "<120mAh"
+        ],
+        "Battery Type": [
+            "Not Detachable"
+        ],
+        "Biometrics Technology": [
+            "Fingerprint Recognition,Face Recognition",
+            "Fingerprint Recognition",
+            "Face Recognition"
+        ],
+        "Bluetooth Version": [
+            "YES",
+            "5.3",
+            "Other",
+            "5.4",
+            "5.0"
+        ],
+        "Built in radiator": [
+            "Yes"
+        ],
+        "Built-in GPS": [
+            "Yes"
+        ],
+        "CPU Model": [
+            "MTK",
+            "8918MB",
+            "smartwatch pro",
+            "AC6963A",
+            "ASR8601+813S"
+        ],
+        "Cellular": [
+            "Other,3G,2 G,4G,5 G",
+            "Other",
+            "3G",
+            "2 G",
+            "4G",
+            "5 G"
+        ],
+        "Charging Interface Type": [
+            "Type-C"
+        ],
+        "Charging Power": [
+            "120W",
+            "Other"
+        ],
+        "Design": [
+            "Bar",
+            "Plain,Cartoon",
+            "Flip"
+        ],
+        "Fast Charging": [
+            "Supercharge",
+            "Nonsupport"
+        ],
+        "Front Camera Pixel": [
+            "16MP",
+            "None Front Camera"
+        ],
+        "Front Camera Quantity": [
+            "1",
+            "None"
+        ],
+        "IP68/IP69K": [
+            "No"
+        ],
+        "Language": [
+            "Arabic,German,Russian,French,Korean,Portuguese,Japanese,Spanish,Italian,English",
+            "English,Spanish,French,German,Japanese",
+            "English,Russian,Spanish,Polish,Portuguese,Turkish,Italian,French,German,Ukrainian,Dutch,Arabic,Indonesian,Greek",
+            "Arabic",
+            "German",
+            "Russian",
+            "French",
+            "Korean",
+            "Portuguese",
+            "Japanese",
+            "Spanish",
+            "Italian",
+            "English",
+            "Polish",
+            "Turkish",
+            "Ukrainian",
+            "Dutch",
+            "Indonesian",
+            "Greek",
+            "Global",
+            "Hebrew",
+            "other languages",
+            "Norwegian"
+        ],
+        "MIL-STD-810G": [
+            "Yes"
+        ],
+        "Memory Card Type": [
+            "Not Supported",
+            "Dedicated slot"
+        ],
+        "Model Name": [
+            "Oneplus Ace 5 Racing"
+        ],
+        "NFC": [
+            "Yes"
+        ],
+        "Oneplus Model": [
+            "Oneplus Ace 5 Racing"
+        ],
+        "Operation System": [
+            "Android",
+            "Dumbphone OS"
+        ],
+        "Other Features": [
+            "Photograph Phone,5G Mobile Phone,Fast Charging Phone",
+            "Photograph Phone",
+            "5G Mobile Phone",
+            "Fast Charging Phone"
+        ],
+        "Rear Camera Pixel": [
+            "50MP",
+            "≤ 1 MP"
+        ],
+        "Rear Camera Quantity": [
+            "2"
+        ],
+        "SIM Card Quantity": [
+            "2 SIM Card"
+        ],
+        "Screen Material": [
+            "AMOLED",
+            "TFT",
+            "IPS",
+            "LCD",
+            "OLED"
+        ],
+        "Screen Refresh Rate": [
+            "120 Hz",
+            "60 Hz",
+            "HZ",
+            "60 HZ",
+            "90 Hz"
+        ],
+        "Screen Type": [
+            "Normal Screen"
+        ],
+        "Touch Screen": [
+            "Yes",
+            "No"
+        ],
+        "WIFI": [
+            "Yes",
+            "5",
+            "No"
+        ],
+        "Wi-Fi Transmission Standard": [
+            "802.11ax,802.11ac,802.11n 2.4GHz/5 GHz,802.11n 2.4 GHz,802.11b/g,802.11a",
+            "802.11ax",
+            "802.11ac",
+            "802.11n 2.4GHz/5 GHz",
+            "802.11n 2.4 GHz",
+            "802.11b/g",
+            "802.11a"
+        ],
+        "Wireless Charging": [
+            "No"
+        ],
+        "3GB 32GB": [
+            "MTK8168"
+        ],
+        "4GB 128GB": [
+            "MTK8183"
+        ],
+        "semi_Choice": [
+            "yes",
+            "Yes"
+        ],
+        "Display resolution": [
+            "1280x800",
+            "1280*720 (IPS)"
+        ],
+        "pritom Model": [
+            "K7PRO"
+        ],
+        "Color": [
+            "Black",
+            "Rose,Pink,Black"
+        ],
+        "BDF Model": [
+            "Tablet(10.1-inch)",
+            "Pro(10.1-inch)",
+            "M107 Pro"
+        ],
+        "warranty": [
+            "12 months"
+        ],
+        "Battery": [
+            "2500mAh",
+            "Yes"
+        ],
+        "Bluetooth": [
+            "4.2",
+            "BT5.2",
+            "Yes",
+            "No"
+        ],
+        "Brand": [
+            "Higole"
+        ],
+        "Feature 1": [
+            "Touch Screen",
+            "Kids wired headphones",
+            "Wireless Headset for PS5, PC, PS4",
+            "Stereo Sound",
+            "Wireless Headset for PS5",
+            "PC",
+            "PS4"
+        ],
+        "Feature 2": [
+            "Pocket Size 5.5 Inch",
+            "Children's over-ear wired headphones",
+            "3.5mm Wired",
+            "Automatic Power-on Pairing"
+        ],
+        "Feature 3": [
+            "Fanless",
+            "Toddler wired headphones",
+            "ENC Noise Canceling Mic",
+            "No delay"
+        ],
+        "Feature 4": [
+            "mini pc for home theater",
+            "Kid-friendly wired headphones",
+            "65H Battery",
+            "HD Fidelity Call"
+        ],
+        "Feature 5": [
+            "Industrial Tablet Pad",
+            "Childrens on-ear wired headphones",
+            "53MM 3D Stereo Sound",
+            "Constant Sound"
+        ],
+        "Feature 6": [
+            "Windows Tablet PC",
+            "Safe wired headphones for kids",
+            "Bluetooth 5.4"
+        ],
+        "OS": [
+            "Windows 11 Pro/Linux/Ubuntu/Windows 10"
+        ],
+        "Processor Brand": [
+            "Intel",
+            "AMD"
+        ],
+        "RAM": [
+            "8GB",
+            "12GB",
+            "16 GB",
+            "&lt;128MB",
+            "8 GB,8 GB",
+            "1 GB",
+            "2 GB",
+            "N/A,16 GB",
+            "≥8GB",
+            "4GB",
+            "3GB",
+            "8 GB",
+            "≥ 4GB",
+            "8 GB,32 GB",
+            "16 GB,16 GB",
+            "<128MB",
+            "N/A",
+            "32 GB",
+            "128 MB",
+            "256 MB"
+        ],
+        "Use": [
+            "Commercial",
+            "Multimedia",
+            "Household",
+            "Home",
+            "Camping",
+            "for Xiaomi Apple all smartphones"
+        ],
+        "eMMC": [
+            "128/256GB"
+        ],
+        "Bluetooth Protocol": [
+            "5.0",
+            "5.3"
+        ],
+        "Function 1": [
+            "Breathing Light"
+        ],
+        "Function 2": [
+            "Long Battery Life"
+        ],
+        "How to Use It": [
+            "Head-Mounted"
+        ],
+        "Item Number": [
+            "042",
+            "ph427"
+        ],
+        "Transmission Range": [
+            "10m"
+        ],
+        "Whether Single or Double Ear": [
+            "Bilateral Stereo"
+        ],
+        "Audio Format Support": [
+            "MP3, WAV,DSD,FLAC,APE,WAV,AIFF",
+            "MP3, WAV,FLAC,WMA",
+            "MP3, WAV",
+            "MP3,WMA,WAV,Ogg,ape",
+            "MP3, WAV,MP3, WMA, OGG, ASF,MP3, WMA, ASF, WAV",
+            "MP3",
+            "WAV",
+            "DSD",
+            "FLAC",
+            "APE",
+            "AIFF",
+            "WMA",
+            "OGG",
+            "ASF"
+        ],
+        "Balanced Out": [
+            "Yes",
+            "No"
+        ],
+        "External Memory": [
+            "Yes",
+            "No"
+        ],
+        "Model Year": [
+            "2025"
+        ],
+        "Bluetooth-compatible Earphone": [
+            "Wireless Headphone"
+        ],
+        "Bone Conduction Headphones": [
+            "Bluetooth-compatible Headphone"
+        ],
+        "Bone Transmission Headset": [
+            "Wireless Business Headset"
+        ],
+        "Wireless Headset": [
+            "Bone Conduction Wireless Headphone"
+        ],
+        "Wireless Stereo Sports Headphone": [
+            "Bone Conduction Bluetooth-compatible Headset"
+        ],
+        "Condition": [
+            "Used"
+        ],
+        "Connectivity": [
+            "Bluetooth"
+        ],
+        "Form Factor": [
+            "In-Ear Only"
+        ],
+        "Microphone Type": [
+            "Built-In",
+            "Detachable Noise-Canceling Mic"
+        ],
+        "Number of Earpieces": [
+            "Double"
+        ],
+        "Suitable For": [
+            "Sweat Proof"
+        ],
+        "UPC": [
+            "Does not apply"
+        ],
+        "Wireless Technology": [
+            "Bluetooth"
+        ],
+        "Bluetooth-Compatible Headphones": [
+            "Bluetooth-Compatible Headset"
+        ],
+        "Bluetooth-Compatible Headset Earphone": [
+            "Bluetooth-Compatible Earphone"
+        ],
+        "Game Earbuds": [
+            "Music Headphones"
+        ],
+        "TWS Earbuds": [
+            "Gaming Headphones"
+        ],
+        "Shuke Model": [
+            "SK47"
+        ],
+        "Battery Capacity[mAh]": [
+            "400",
+            "2000mAh",
+            "2000",
+            "1050",
+            "600mAh/2.22Wh",
+            "550mAh",
+            "800mah",
+            "500"
+        ],
+        "Battery life up to[hours]": [
+            "40",
+            "240 Hour",
+            "248",
+            "45",
+            "40hours",
+            "55H ANC off",
+            "120hours"
+        ],
+        "Sensitivity": [
+            "117",
+            "105",
+            "108",
+            "118",
+            "102",
+            "46",
+            "110±3dBdB"
+        ],
+        "7.1 surround sound headset": [
+            "headphones wireless"
+        ],
+        "Connection Methods": [
+            "2.4GHz Wireless / Bluetooth / USB-C Wired"
+        ],
+        "Driver Size": [
+            "50mm"
+        ],
+        "EQ Customization": [
+            "Supported via App"
+        ],
+        "Earcup Material": [
+            "Memory Foam"
+        ],
+        "Frequency Range": [
+            "20Hz 20kHz",
+            "50Hz-20KHz",
+            "Other",
+            "100Hz-20KHz"
+        ],
+        "Headband Type": [
+            "Adjustable Padded Headband"
+        ],
+        "Latency": [
+            "Ultra Low Latency (&lt;20ms on 2.4GHz)",
+            "Ultra Low Latency (<20ms on 2.4GHz)"
+        ],
+        "Mute Function": [
+            "Clip-to-Mute"
+        ],
+        "Noise Reduction": [
+            "Yes (Microphone Noise Isolation)"
+        ],
+        "Platform Compatibility": [
+            "PC, laptop, PS4/5 and other USB interface devices",
+            "PC",
+            "laptop",
+            "PS4/5 and other USB interface devices"
+        ],
+        "QCY": [
+            "Heroad V200 Earphones"
+        ],
+        "QCY Model": [
+            "Other"
+        ],
+        "Qcy phone": [
+            "QCY earphones"
+        ],
+        "Sound Modes": [
+            "Gaming / Music / Movie"
+        ],
+        "Sound Technology": [
+            "3D Surround Sound"
+        ],
+        "THD (Total Harmonic Distortion)": [
+            "≤1%"
+        ],
+        "Total Harmonic Distortion": [
+            "5",
+            "1"
+        ],
+        "USB gaming headset": [
+            "RGB lighting gaming headset"
+        ],
+        "Wearing Type": [
+            "Over-Ear"
+        ],
+        "Wireless headset": [
+            "Earphone bluetooth"
+        ],
+        "detachable microphone headset": [
+            "Wireless bluetooth headphones"
+        ],
+        "foldable gaming headphones": [
+            "noise cancelling headphones"
+        ],
+        "gaming headphones with mic": [
+            "gaming headphones"
+        ],
+        "gaming headset for PC": [
+            "headphones"
+        ],
+        "headphones wireless": [
+            "Qcy bluetooth earphones"
+        ],
+        "headset gamer": [
+            "Wireless gamer headset"
+        ],
+        "high quality gaming headset": [
+            "headphones noise canceling"
+        ],
+        "long battery life headset": [
+            "headphones gaming"
+        ],
+        "low latency gaming headset": [
+            "gaming Earphone"
+        ],
+        "multi-platform compatible headset": [
+            "wireless headphones"
+        ],
+        "noise cancelling gaming headset": [
+            "over-ear headphones"
+        ],
+        "over-ear gaming headset": [
+            "bluetooth wireless earphone"
+        ],
+        "surround sound gaming headset": [
+            "bluetooth headset"
+        ],
+        "wired gaming headset": [
+            "gaming headset"
+        ],
+        "Feature 10": [
+            "Wired headphones for kids music/movies"
+        ],
+        "Feature 11": [
+            "Travel wired headphones for children"
+        ],
+        "Feature 12": [
+            "5-12 year old children's wired headphones"
+        ],
+        "Feature 7": [
+            "Volume-limiting kids wired headphones",
+            "2.4GHz USB Gaming Headphones"
+        ],
+        "Feature 8": [
+            "Soft padded kids wired headphones",
+            "Wireless Gaming Headset"
+        ],
+        "Feature 9": [
+            "Kids wired headphones for school/online class"
+        ],
+        "Max Output": [
+            "1",
+            "300"
+        ],
+        "Mic Sensitivity": [
+            "-42±3dB"
+        ],
+        "Supported Protocols": [
+            "A2DP/HFP/HSP/AVRCP"
+        ],
+        "Battery capacity": [
+            "600mAh/2.22Wh"
+        ],
+        "Communication distance": [
+            "10m"
+        ],
+        "Frequency response range": [
+            "20Hz to 40kHz"
+        ],
+        "Fully charging time": [
+            "About 2 hours"
+        ],
+        "Music playing time": [
+            "60 hours (volume at 70%)"
+        ],
+        "Rated consumption current": [
+            "10mA"
+        ],
+        "Rated input": [
+            "DC5V=600mA"
+        ],
+        "Wireless version": [
+            "V5.3"
+        ],
+        "3 Mics ENC Calls": [
+            "Wireless / Wired Mode Support"
+        ],
+        "40mm Dynamic Driver": [
+            "Adaptive Noise Cancellatlon"
+        ],
+        "60hrs Uitra-Long Playtime": [
+            "High-Res Audio &amp; LDAC Codec",
+            "High-Res Audio & LDAC Codec"
+        ],
+        "65ms low latency": [
+            "over ear headset"
+        ],
+        "Hi-Res Audio with LDAC": [
+            "3D spatial audio"
+        ],
+        "QCY H3 Pro ANC": [
+            "Wireless Headphones"
+        ],
+        "Support QCY APP": [
+            "Dual Chip Driven Superior Sound"
+        ],
+        "Transparency Mode": [
+            "noise canceling headphones"
+        ],
+        "anc headphone bluetooth": [
+            "bluetooth 5.4 headset"
+        ],
+        "fone de ouvido bluetooth": [
+            "fone de ouvido"
+        ],
+        "fone qcy h3 Pro": [
+            "qcy anc headphones"
+        ],
+        "h3 pro qcy anc": [
+            "dual connection headphones"
+        ],
+        "headphone bluetooth": [
+            "h3 pro qcy"
+        ],
+        "qcy h3 pro anc headset": [
+            "50dB noise canceling headphones"
+        ],
+        "qcy h3 pro audifonos": [
+            "fone de ouvido bluetooth"
+        ],
+        "qcy h3 pro headphone": [
+            "hybrid active noise cancellation earphone"
+        ],
+        "Bluetooth version": [
+            "5.4"
+        ],
+        "Charge time": [
+            "1.5hours"
+        ],
+        "Compatible": [
+            "Wired &amp; Wireless",
+            "Wired & Wireless",
+            "More than 600 car models"
+        ],
+        "Model": [
+            "Baseus Bowie H1s Wireless Headphone",
+            "Motorola VHF Antenna",
+            "P98",
+            "Mini Android auto AI Box",
+            "smartwatch",
+            "Smart Watch",
+            "i8",
+            "BWHDT11",
+            "y13",
+            "TK16",
+            "MT61",
+            "smart watch",
+            "M3Plus smart watch"
+        ],
+        "Music Playing time 1": [
+            "120hours(volume at 70%,ANC off)",
+            "120hours(volume at 70%",
+            "ANC off)"
+        ],
+        "Music Playing time 2": [
+            "60hours(volume at 70%,ANC on)",
+            "60hours(volume at 70%",
+            "ANC on)"
+        ],
+        "Ultra- Low Latency": [
+            "0.06'"
+        ],
+        "Average Battery Life(in hours)": [
+            "7-9",
+            "up to 8 hours"
+        ],
+        "Base Frequency (GHz)4": [
+            "0.8GHz",
+            "1.6",
+            "3.2",
+            "1.6GHz",
+            "1.5GHZ"
+        ],
+        "Battery Capacity（mAh）": [
+            "3800mah",
+            "5000"
+        ],
+        "Body Material": [
+            "Metal",
+            "TPU+Plastic",
+            "Plastic",
+            "aluminum"
+        ],
+        "CHUWI Laptop": [
+            "MiniBook X 2 in 1 Laptop"
+        ],
+        "CPU Brand/Model": [
+            "Intel Celeron",
+            "Intel Core i5-8210Y",
+            "Apple M1 8-Core CPU",
+            "AMD Ryzen 5"
+        ],
+        "Dimensions (WxHxD)": [
+            "313.4*209.9*19.9 (H)mm",
+            "12 x 0.6 x 8.4 IN",
+            "11.97 x 8.36 x 0.63 IN",
+            "22 x 33 x 2 cm",
+            "310*229.5*20.6(H)mm",
+            "5.6*4.2*1.2cm",
+            "52.3*69.8*8mm",
+            "52*40*12mm",
+            "11*5*1.5"
+        ],
+        "Display Ratio": [
+            "16:10",
+            "unknown",
+            "16:9",
+            "3:2"
+        ],
+        "Expandable storage": [
+            "Yes",
+            "256",
+            "128"
+        ],
+        "Graphic Type": [
+            "Integrated"
+        ],
+        "Graphics Brand": [
+            "Intel",
+            "Intel UHD Graphics 617",
+            "Apple M1 8-core",
+            "AMD"
+        ],
+        "Hard Drive Interface": [
+            "M.2"
+        ],
+        "Hard Drive Type": [
+            "SSD",
+            "Solid State Drive (SSD)"
+        ],
+        "Keyboard backlit type": [
+            "monochrome",
+            "No"
+        ],
+        "Keyboard language": [
+            "Japanese",
+            "English"
+        ],
+        "Keyboards": [
+            "Backlit Keyboard,Numeric Keypad",
+            "Standard",
+            "Touchpad",
+            "Numeric Keypad",
+            "Backlit Keyboard"
+        ],
+        "Max Turbo Frequency": [
+            "3.6GHz",
+            "unknown",
+            "2.0GHz",
+            "4.4GHZ"
+        ],
+        "Memory Type": [
+            "DDR5",
+            "DDR3",
+            "DDR4"
+        ],
+        "Number of Cores": [
+            "4",
+            "2",
+            "8",
+            "Eight Core",
+            "Six Core",
+            "Fourteen Cores"
+        ],
+        "Product": [
+            "MiniBook X 2 in 1 Notebook"
+        ],
+        "Recommended use": [
+            "Learing,Business Use,Gaming,Daily Entertainment",
+            "Learing,Business Use,Daily Entertainment",
+            "Learing",
+            "Business Use",
+            "Gaming",
+            "Daily Entertainment"
+        ],
+        "Screen surface": [
+            "Glossy"
+        ],
+        "Thermal Design Power": [
+            "50-70w",
+            "unknown"
+        ],
+        "Thickness": [
+            "15mm- 18mm",
+            "≥20mm"
+        ],
+        "Video Memory Capacity": [
+            "Main memory allocated memory",
+            "0 MB",
+            "12GB",
+            "8 GB",
+            "4 GB"
+        ],
+        "Weight (Battery Included)": [
+            "&lt; 1.5 KG",
+            "2.75 lbs",
+            "2.8 lbs",
+            "1.8 KG - 2.0 KG"
+        ],
+        "Wireless Interfaces": [
+            "Bluetooth 5.2",
+            "Wi-Fi 6 (802.11ax)"
+        ],
+        "CPU model": [
+            "intel Atom A3950"
+        ],
+        "Optical Drive Type": [
+            "None"
+        ],
+        "Black screen charging time": [
+            "About  3.5h"
+        ],
+        "Data transmission": [
+            "USB-A 3.0X2"
+        ],
+        "Expand external storage": [
+            "Micro SD,Maximum support for 128GB",
+            "Micro SD",
+            "Maximum support for 128GB"
+        ],
+        "Extended Storage": [
+            "The TF card interface supports a maximum of 128GB"
+        ],
+        "Front camera": [
+            "100W"
+        ],
+        "High definition audio and video output": [
+            "Yes TYPE-AX1   1.4"
+        ],
+        "Laptop": [
+            "CHUWI Laptop,CHUWI Lightweight Laptop",
+            "CHUWI Laptop",
+            "CHUWI Lightweight Laptop"
+        ],
+        "Local video playback time (speaker)": [
+            "About  3.5h"
+        ],
+        "M. 2 interfaces": [
+            "1Pcs, 2280, supporting a maximum of 1T",
+            "1Pcs",
+            "2280",
+            "supporting a maximum of 1T"
+        ],
+        "Sleep standby time": [
+            "About 130h"
+        ],
+        "WIFI video playback time (speaker)": [
+            "About 3h"
+        ],
+        "Built in Li-Battery": [
+            "30mAh"
+        ],
+        "Charge Docking Battery": [
+            "200mAh"
+        ],
+        "Charge Time": [
+            "1H"
+        ],
+        "Charginginterface": [
+            "Type-c"
+        ],
+        "Music/Talking Time": [
+            "4-5 Hours"
+        ],
+        "Standby Time": [
+            "150 Hours"
+        ],
+        "Working Distance": [
+            "10-15m"
+        ],
+        "Battery Life": [
+            "&lt; 10 hours",
+            "4 Hours",
+            "7",
+            "2-3day",
+            "&gt; 20 hours,&gt; 20 hours",
+            "38000 - 45000",
+            "3 - 5",
+            "369 - 459",
+            "7-9",
+            "up to 7 - 9 hour",
+            "up to 4 - 6 hour",
+            "up to 8 hours",
+            "< 10 hours",
+            "> 20 hours,> 20 hours",
+            "> 20 hours",
+            "1",
+            "240h",
+            "5 days",
+            "3",
+            "12h",
+            "3 day",
+            "5",
+            "30Day",
+            "5-7 day",
+            "4 Day",
+            "24"
+        ],
+        "Battery Specification": [
+            "Lithium battery"
+        ],
+        "Compatible Devices": [
+            "Windows PC",
+            "Others"
+        ],
+        "Designed for motor vehicle installation": [
+            "No"
+        ],
+        "Have Speakers or not": [
+            "Yes",
+            "No"
+        ],
+        "Operation Mode": [
+            "Touch Tone",
+            "Touch Screen"
+        ],
+        "Screen": [
+            "Yes",
+            "Yes,Yes"
+        ],
+        "Storage Type": [
+            "Flash Memory",
+            "Hard disk"
+        ],
+        "Streaming Service Compatibility": [
+            "Other",
+            "Spotify"
+        ],
+        "Supports EBook Reading": [
+            "Yes"
+        ],
+        "Supports FM": [
+            "No"
+        ],
+        "Supports Recording Function": [
+            "Yes"
+        ],
+        "DAC": [
+            "ZR"
+        ],
+        "DSP": [
+            "ZR"
+        ],
+        "Signal Noise Ratio": [
+            "≥89dB"
+        ],
+        "Audio Video Support": [
+            "AVI"
+        ],
+        "Built-in Speaker": [
+            "Yes"
+        ],
+        "Audio Crossover": [
+            "Full-Range"
+        ],
+        "Built-in Microphone": [
+            "Yes",
+            "No"
+        ],
+        "Cabinet Material": [
+            "Plastic"
+        ],
+        "Channels": [
+            "2 (2.0)",
+            "1",
+            "Yes",
+            "3 (2.1)"
+        ],
+        "Display Screen": [
+            "No"
+        ],
+        "Display screen": [
+            "No"
+        ],
+        "Inbox adaptor": [
+            "No",
+            "Yes"
+        ],
+        "Input Power(W)": [
+            "&lt;25 W",
+            "200-299W",
+            "<25 W"
+        ],
+        "Input/Output": [
+            "Other",
+            "AUX",
+            "USB"
+        ],
+        "Intelligent Personal Assistant": [
+            "None"
+        ],
+        "Number of Loudspeaker Enclosure": [
+            "1"
+        ],
+        "Number of devices connectable simultaneously": [
+            "1",
+            "2"
+        ],
+        "Power Source": [
+            "Battery,Battery",
+            "USB,USB",
+            "Battery,USB",
+            "DC,Battery",
+            "Ac",
+            "DC",
+            "Battery",
+            "USB",
+            "None"
+        ],
+        "Sound Mode": [
+            "Stereo Sound Mode,Extra Bass Mode",
+            "Standard Mode",
+            "Other",
+            "Stereo Sound Mode",
+            "Extra Bass Mode",
+            "Hi-Res Sound Mode",
+            "3D Surround Sound Mode"
+        ],
+        "Speaker Type": [
+            "Portable",
+            "Subwoofer"
+        ],
+        "Voice Control": [
+            "No",
+            "Yes"
+        ],
+        "Voltage range": [
+            "USB (5-20V DC)"
+        ],
+        "Acoustic enclosure": [
+            "Other",
+            "HORN"
+        ],
+        "Mid-range material": [
+            "Other"
+        ],
+        "Remote Control": [
+            "No"
+        ],
+        "Support Apt-x": [
+            "No"
+        ],
+        "Tweeter material": [
+            "Other"
+        ],
+        "Control": [
+            "Volume control"
+        ],
+        "Impedance": [
+            "2-4 Ohm"
+        ],
+        "Output Power": [
+            "175W"
+        ],
+        "PMPO": [
+            "35W",
+            "6W"
+        ],
+        "Playback Function": [
+            "Radio,MP3",
+            "Radio",
+            "MP3"
+        ],
+        "Sabwoofer cabinet material": [
+            "Plastic"
+        ],
+        "Screen Size[\"]": [
+            "."
+        ],
+        "Sensivity": [
+            "90",
+            "75"
+        ],
+        "Tweeter type": [
+            "HORN"
+        ],
+        "Woofer/Widerange material": [
+            "Other"
+        ],
+        "CN": [
+            "Guangdong",
+            "Jiangsu"
+        ],
+        "Dog Harness Type": [
+            "Vest Harnesses"
+        ],
+        "Is Smart Device": [
+            "No",
+            "Yes"
+        ],
+        "Lifestage": [
+            "Puppy"
+        ],
+        "Pattern Type": [
+            "Solid",
+            "Plaid"
+        ],
+        "Season": [
+            "all seasons"
+        ],
+        "is_customized": [
+            "No"
+        ],
+        "Battery Included": [
+            "Yes",
+            "No"
+        ],
+        "Design 1": [
+            "Cute Cat Ears"
+        ],
+        "Design 2": [
+            "Portable Anti Loss Chain,Hinge Full Protective"
+        ],
+        "Drop Shipping": [
+            "Support"
+        ],
+        "Main Material": [
+            "Plastic"
+        ],
+        "Sale Way": [
+            "Wholesale,Retail"
+        ],
+        "Model2": [
+            "Motorola XIR P8668 VHF Antenna"
+        ],
+        "Model3": [
+            "Motorola GP328D UHF Antenna"
+        ],
+        "Model4": [
+            "Walkie Talkie VHF Antenna"
+        ],
+        "Model5": [
+            "Two Way Radio Antenna"
+        ],
+        "Model6": [
+            "Motorola 136-174MHz Antenna"
+        ],
+        "Model7": [
+            "Motorola 403-527MHz Antenna"
+        ],
+        "APP Download Available": [
+            "Yes"
+        ],
+        "Activity Tracked": [
+            "Steps Tracker,Calorie Tracker,Activity Tracker",
+            "Other,Steps Tracker,Activity Tracker",
+            "Steps Tracker",
+            "Calorie Tracker",
+            "Activity Tracker",
+            "Other",
+            "Distance Tracker"
+        ],
+        "Application Age Group": [
+            "female",
+            "Adult",
+            "Child",
+            "Elder",
+            "Men"
+        ],
+        "Band Detachable": [
+            "Yes"
+        ],
+        "Battery Capacity": [
+            "220-300mah",
+            "3000mAh",
+            "2500mAH",
+            "5000mAH",
+            "6000-7499mAh",
+            "4000 MAH",
+            "4000 mah",
+            "3500MAH",
+            "5000",
+            "400",
+            "2000mAh",
+            "2000",
+            "1050",
+            "600mAh/2.22Wh",
+            "550mAh",
+            "800mah",
+            "5000MAH/3.7V",
+            "500",
+            "<3000 mAh",
+            "300-450mah",
+            ">450mAh",
+            "<120mAh"
+        ],
+        "Battery Detachable": [
+            "No"
+        ],
+        "Bluetooth-compatible Version": [
+            "5.0",
+            "5.2",
+            "5.3",
+            "None",
+            "5.1"
+        ],
+        "Compatibility": [
+            "All Compatible"
+        ],
+        "GPS": [
+            "Yes",
+            "No",
+            "Built-in GPS"
+        ],
+        "Mechanism": [
+            "Yes"
+        ],
+        "Metrics measured": [
+            "Heart Rate Monitor,Blood Oxygen Monitor,Sleep Monitor,Blood Pressure Monitor",
+            "Other,Blood Oxygen Monitor,Sleep Monitor,Blood Pressure Monitor",
+            "Heart Rate Monitor",
+            "Blood Oxygen Monitor",
+            "Sleep Monitor",
+            "Blood Pressure Monitor",
+            "Other",
+            "Women's Health Monitoring",
+            "Body Temperature Monitor",
+            "Stress Monitor"
+        ],
+        "Movement Type": [
+            "Electronic"
+        ],
+        "Multiple Dials": [
+            "Yes"
+        ],
+        "Network Mode": [
+            "None",
+            "4G"
+        ],
+        "ROM": [
+            "&lt;128MB",
+            "<128MB",
+            "128 MB",
+            "8 GB"
+        ],
+        "Rear Camera": [
+            "None",
+            "2 MP",
+            "8MP",
+            "13mp",
+            "Other",
+            "5 MP",
+            "0.3MP"
+        ],
+        "SIM Card Available": [
+            "No"
+        ],
+        "Screen Shape": [
+            "Round",
+            "SQUARE"
+        ],
+        "Waterproof Grade": [
+            "Life Waterproof",
+            "Not waterproof",
+            "50m"
+        ],
+        "Wi-fi": [
+            "Yes"
+        ],
+        "Amplifier": [
+            "No"
+        ],
+        "Connector A": [
+            "USB A",
+            "USB",
+            "Type-C",
+            "LIGHTNING"
+        ],
+        "Connector B": [
+            "Type-C",
+            "LIGHTNING"
+        ],
+        "Input Voltage": [
+            "None",
+            "90-265V",
+            "90~264V",
+            "100-240V",
+            "90-264V",
+            "200-240Vac"
+        ],
+        "Output Voltage": [
+            "None",
+            "60W",
+            "15a",
+            "-",
+            "24A",
+            "fonte",
+            "6W"
+        ],
+        "Application": [
+            "DIY",
+            "Desktop",
+            "Laptop",
+            "Desktop,Server",
+            "Desktop,Server,Mining",
+            "Server",
+            "Mining",
+            "Tablet"
+        ],
+        "Application Laptop Size": [
+            "6\""
+        ],
+        "App name": [
+            "HryFine",
+            "LAXASFIT",
+            "FitCloudpro.",
+            "DeepFit",
+            "setracker2",
+            "Keep Health",
+            "HealthWear"
+        ],
+        "Band Material": [
+            "Silica Gel",
+            "Rubber"
+        ],
+        "Drill Type": [
+            "Mini Drill"
+        ],
+        "Input Voltagle": [
+            "US Plug : 100-130V/EU Plug : 220-240V"
+        ],
+        "Output Temperature": [
+            "200-450℃"
+        ],
+        "Voltage": [
+            "Others"
+        ],
+        "Cooling Fin": [
+            "Yes",
+            "No"
+        ],
+        "Memory Frequency": [
+            "3200 MHz",
+            "1600 MHz",
+            "2666 MHz"
+        ],
+        "Memory Voltage": [
+            "1.35V",
+            "1.5",
+            "1.2"
+        ],
+        "RGB": [
+            "No"
+        ],
+        "Frequency": [
+            "1600",
+            "1333MHz/1600MHz",
+            "1600,1333/1600"
+        ],
+        "Interface Type": [
+            "240pin",
+            "260 Pin",
+            "20 + 4Pin",
+            "24Pin",
+            "PCI Express 4.0x8",
+            "PCI Express 4.0x16",
+            "PCI Express 3.0x16"
+        ],
+        "Sequence": [
+            "11-11-11-28"
+        ],
+        "The value of CL": [
+            "11",
+            "22"
+        ],
+        "Chip brand": [
+            "PUSKILL,Samsung,Hynix,Micron"
+        ],
+        "DDR3L Memory voltage": [
+            "1.35V"
+        ],
+        "DDR3L interface type": [
+            "204Pin"
+        ],
+        "Memory Color": [
+            "Black,Green"
+        ],
+        "DDR4 16GB 2400MHz": [
+            "PC4-19200 16GB"
+        ],
+        "DDR4 16GB 2666MHz": [
+            "PC4-21300 16GB"
+        ],
+        "DDR4 8GB 2133MHz": [
+            "PC4-17000 8GB"
+        ],
+        "DDR4 8GB 2400MHz": [
+            "PC4-19200 8GB"
+        ],
+        "DDR4 8GB 2666MHz": [
+            "PC4-21300 8GB"
+        ],
+        "DDR4 8GB 3200MHz": [
+            "PC4-25600 8GB"
+        ],
+        "RAM SODIMM Laptop Memory": [
+            "PC4 2133P 2400T 2666V 3200AA"
+        ],
+        "Samsung DDR4": [
+            "8GB 3200MHz 16GB 2666Mhz 2400MHz 4GB 2133MHz"
+        ],
+        "ddr4 3200": [
+            "ddr4 8gb 3200mhz"
+        ],
+        "ddr4 8gb": [
+            "ddr4 8gb 2666mhz"
+        ],
+        "ddr4 ram": [
+            "ddr4 16gb 2400mhz"
+        ],
+        "ram ddr4": [
+            "Samsung"
+        ],
+        "samsung": [
+            "ddr4"
+        ],
+        "sodimm ddr4": [
+            "ram ddr4 laptop"
+        ],
+        "80 PLUS Certification": [
+            "Other Certification",
+            "Gold",
+            "80 PLUS BRONZE"
+        ],
+        "CPU Power Connector": [
+            "8 pin",
+            "8 pin x2",
+            "4 pin"
+        ],
+        "D-type Bus Number": [
+            "2",
+            "3"
+        ],
+        "Fans": [
+            "1",
+            "Yes"
+        ],
+        "Graphics Card 12V Pin Number": [
+            "2 x6 pin",
+            "8 pin",
+            "2 x8 pin +2 x6 pin",
+            "0"
+        ],
+        "Modular": [
+            "Full Modular",
+            "Non-Modular"
+        ],
+        "Number of SATA Ports": [
+            "3",
+            "2",
+            "4"
+        ],
+        "PFC Type": [
+            "PASSIVE",
+            "Active"
+        ],
+        "Chip Process": [
+            "7NM",
+            "28NM",
+            "14NM",
+            "22 Nanometers",
+            "12NM"
+        ],
+        "Chipset Manufacturer": [
+            "AMD",
+            "NVIDIA"
+        ],
+        "Cooler Type": [
+            "Double Fan",
+            "Single Fan"
+        ],
+        "Core Clock(Mhz)": [
+            "2177",
+            "1755",
+            "901",
+            "1244",
+            "1020"
+        ],
+        "Itel condition": [
+            "New"
+        ],
+        "Max Resolution": [
+            "7680 x 4320",
+            "4096 x 2160"
+        ],
+        "Memory Clock(Mhz)": [
+            "14000",
+            "667",
+            "7000",
+            "1250"
+        ],
+        "Memory Interface": [
+            "128 BIT",
+            "256 BIT"
+        ],
+        "Output  Interface Type": [
+            "DisplayPort x3,HDMI 2.0x1",
+            "HDMI 1.2x2",
+            "DVI-D,DisplayPort x1,HDMI 2.0x2",
+            "VGA (D-Sub),DVI-D,HDMI 1.4x1",
+            "DisplayPort x3",
+            "HDMI 2.0x1",
+            "VGA (D-Sub)",
+            "DVI-D",
+            "HDMI 1.4x1"
+        ],
+        "Overclocked": [
+            "No"
+        ],
+        "Power Connector": [
+            "8pin",
+            "6pin + 8pin",
+            "None",
+            "6pin"
+        ],
+        "Product Category": [
+            "Desktop Graphics Cards"
+        ],
+        "Product Features": [
+            "VR READY,HDCP Ready",
+            "VR READY",
+            "physx",
+            "HDCP Ready"
+        ],
+        "Usage Scenario": [
+            "Enthusiast &amp; Overclocking,Gaming,Audio &amp; Video,Office,Video Production,Scientific Computing,Video Rendering,others",
+            "Gaming,Audio &amp; Video,Household,Office,Design,Video Production",
+            "Gaming,Audio &amp; Video,Household,Office,others",
+            "Enthusiast &amp; Overclocking,Gaming,Audio &amp; Video,Household,Office,Design,Video Production,3-D Modeling,Video Rendering,others",
+            "Gaming,Audio &amp; Video,Household,Office",
+            "Gaming",
+            "Office",
+            "others",
+            "Enthusiast & Overclocking,Gaming,Audio & Video,Office,Video Production,Scientific Computing,Video Rendering,others",
+            "Gaming,Audio & Video,Household,Office,Design,Video Production",
+            "Gaming,Audio & Video,Household,Office,others",
+            "Enthusiast & Overclocking,Gaming,Audio & Video,Household,Office,Design,Video Production,3-D Modeling,Video Rendering,others",
+            "Gaming,Audio & Video,Household,Office",
+            "Enthusiast & Overclocking",
+            "Audio & Video",
+            "Video Production",
+            "Scientific Computing",
+            "Video Rendering",
+            "Household",
+            "Design"
+        ],
+        "DirectX": [
+            "DirectX 12",
+            "DirectX 12,OpenGL 4.6"
+        ],
+        "Package type": [
+            "Retail",
+            "OEM"
+        ],
+        "Stream Processors": [
+            "2560",
+            "384",
+            "2048",
+            "640"
+        ],
+        "Cooling system": [
+            "No"
+        ],
+        "Default TDP / TDP": [
+            "125",
+            "69",
+            "145",
+            "65",
+            "120"
+        ],
+        "GPU-built": [
+            "No"
+        ],
+        "Intel Model": [
+            "i5 10600KF",
+            "Xeon E3-1270 v2",
+            "Intel Xeon E5 2699 V3",
+            "Intel Xeon E5-2680 v4"
+        ],
+        "Number OF Therads": [
+            "12",
+            "8",
+            "36",
+            "32"
+        ],
+        "PCIe VERSION": [
+            "PCIe 3.0",
+            "PCIe"
+        ],
+        "Processor Type": [
+            "Intel Core",
+            "Intel Xeon",
+            "AMD Ryzen 5"
+        ],
+        "Product condition": [
+            "Used"
+        ],
+        "Socket Type": [
+            "LGA1200",
+            "LGA 1155",
+            "LGA 2011-3",
+            "AM4",
+            "LGA 2011-V3"
+        ],
+        "Support Chipset Models": [
+            "Intel Others",
+            "Intel B75",
+            "AMD Others"
+        ],
+        "Support Memory Channels": [
+            "2",
+            "4"
+        ],
+        "Support Memory Type": [
+            "DDR4",
+            "DDR3"
+        ],
+        "Unlocked": [
+            "No"
+        ],
+        "L2 Cache Capacity": [
+            "4.5",
+            "3MB",
+            "3.5 MB"
+        ],
+        "L3 Cache Capacity": [
+            "45",
+            "35MB"
+        ],
+        "AMD Model": [
+            "R5 2600"
+        ],
+        "Memory": [
+            "32GB+Extension Memory TF Card(Not included)"
+        ],
+        "FiiO Model": [
+            "Disc"
+        ],
+        "For": [
+            "laptop notebook"
+        ],
+        "Samsung Model": [
+            "DDR3 8GB 1600MHz"
+        ],
+        "Storage": [
+            "250GB",
+            "16 GB",
+            "32 GB",
+            "1TB",
+            "64 GB",
+            "128 GB",
+            "≥ 1.5TB",
+            "500GB",
+            "512GB",
+            "256 GB"
+        ],
+        "Front Camera": [
+            "1 MP",
+            "0.3MP",
+            "5 MP",
+            "8MP",
+            "Other",
+            "2 MP"
+        ],
+        "Depth": [
+            "252",
+            "167mm",
+            "100"
+        ],
+        "Height": [
+            "136",
+            "190mm",
+            "72"
+        ],
+        "Width": [
+            "195",
+            "58mm",
+            "92",
+            "50"
+        ],
+        "Core Count": [
+            "4",
+            "2",
+            "8",
+            "Eight Core",
+            "Six Core",
+            "Fourteen Cores"
+        ],
+        "Thread Count": [
+            "12",
+            "36",
+            "32"
+        ],
+        "Mouse & Keyboard": [
+            "No"
+        ],
+        "Craft of Weaving": [
+            "Knit"
+        ],
+        "Packaging": [
+            "Loose"
+        ],
+        "GPS type": [
+            "Vehicle GPS Units & Equipment"
+        ],
+        "Chip": [
+            "Arm Cortex-A7"
+        ],
+        "Interface": [
+            "Car USB or Type-C"
+        ],
+        "Material Type": [
+            "Plastic"
+        ],
+        "Support": [
+            "OEM Knob Control",
+            "Touch Screen Control",
+            "Siri Voice Control"
+        ],
+        "Support models": [
+            "98% Models Car"
+        ],
+        "USB android auto adapter": [
+            "Android auto dongle"
+        ],
+        "Wired to Wireless android auto": [
+            "Android auto Wired to Wireless"
+        ],
+        "Wireless Android Auto": [
+            "Android auto Wireless"
+        ],
+        "Wi-Fi Music": [
+            "Apple Music"
+        ],
+        "Gender": [
+            "Female"
+        ],
+        "Size": [
+            "Small"
+        ],
+        "Application  Brands": [
+            "For Apple"
+        ],
+        "Application Screen": [
+            "Resistance screen"
+        ],
+        "Battery Life Up To": [
+            "no battery"
+        ],
+        "Features 1": [
+            "for apple pencils tips"
+        ],
+        "Features 10": [
+            "for apple pencil pro case"
+        ],
+        "Features 11": [
+            "for apple pencil ipad"
+        ],
+        "Features 12": [
+            "for stylus pen"
+        ],
+        "Features 13": [
+            "for pencil ipad"
+        ],
+        "Features 14": [
+            "for touch pencil tips"
+        ],
+        "Features 15": [
+            "for apple pencil 2"
+        ],
+        "Features 2": [
+            "for apple pencil"
+        ],
+        "Features 3": [
+            "for apple pencil tips"
+        ],
+        "Features 4": [
+            "for Apple pencil pen nib"
+        ],
+        "Features 5": [
+            "for apple pencil case"
+        ],
+        "Features 6": [
+            "for apple pencils"
+        ],
+        "Features 7": [
+            "for apple pencil tip"
+        ],
+        "Features 8": [
+            "for apple pencil 1"
+        ],
+        "Features 9": [
+            "for pencil for tablet"
+        ],
+        "Case Material": [
+            "Alloy",
+            "Plastic",
+            "Stainless steel",
+            "Rubber"
+        ],
+        "Band length[mm]": [
+            "22",
+            "230",
+            "250",
+            "220",
+            "210",
+            "260"
+        ],
+        "Dial Window Material Type": [
+            "Glass",
+            "Hardlex",
+            "Coated Glass",
+            "Sapphire Crystal"
+        ],
+        "Launch Date": [
+            "2025"
+        ],
+        "Band width[mm]": [
+            "20 MM",
+            "20",
+            "22"
+        ],
+        "CPU Manufacturer": [
+            "MediaTek",
+            "qualcomm",
+            "Ingenic"
+        ],
+        "Accessory Type": [
+            "Chargers",
+            "1charger table 2iNstruction 3original box 4watch strap",
+            "charging cable",
+            "user manual",
+            "packaging box"
+        ],
+        "smartwatch function": [
+            "Multiple Sports",
+            "Sedentary Clock",
+            "Wireless Call",
+            "Music",
+            "Camera Control",
+            "Pedometer",
+            "Notification",
+            "Watch Face Gallery",
+            "Drink Water Reminder",
+            "Calculators",
+            "Weather",
+            "Find Phone",
+            "Alarm Clock",
+            "1.83inch"
+        ],
+        "24-hour scientific sleep monitoring": [
+            "remote care for friends and family"
+        ],
+        "AI dial": [
+            "AI intelligent Q&A"
+        ],
+        "ECG electrocardiogram": [
+            "micro physical examination"
+        ],
+        "blood composition measurement": [
+            "body composition"
+        ],
+        "blood oxygen monitoring": [
+            "blood pressure monitoring"
+        ],
+        "emotion detection": [
+            "fatigue detection"
+        ],
+        "emperature monitoring": [
+            "Bluetooth call"
+        ],
+        "heart health analysis": [
+            "heart rate monitoring"
+        ],
+        "metoclopramide function": [
+            "SOS emergency call function"
+        ],
+        "respiratory training": [
+            "women's health"
+        ],
+        "step counting": [
+            "multi sport mode"
+        ],
+        "Note": [
+            "Not fit for American countries",
+            "like USA",
+            "Brazil",
+            "Chile",
+            "Canada",
+            "ect."
+        ],
+        "2024 smartwatch": [
+            "smartwatch"
+        ],
+        "Fashion smartwatch": [
+            "Smart Watch for Men"
+        ],
+        "Health monitoring smartwatch": [
+            "Waterproof smartwatch"
+        ],
+        "New smartwatch": [
+            "Ultra thin smartwatch"
+        ],
+        "Smart Watch for Women": [
+            "Outdoor smartwatch"
+        ],
+        "Sports smartwatch": [
+            "Fitness smartwatch"
+        ],
+        "Band Material Type": [
+            "Leather",
+            "Silicone"
+        ],
+        "Case Shape": [
+            "Rectangle"
+        ],
+        "Clasp Type": [
+            "Folding Clasp with Safety",
+            "None"
+        ],
+        "Movement": [
+            "Digital"
+        ],
+        "Water Resistance Depth": [
+            "3Bar"
+        ],
+        "Boxes & Cases Material": [
+            "Paper"
+        ],
+        "Features1": [
+            "smart watch"
+        ],
+        "Features2": [
+            "smart wristband"
+        ],
+        "Features3": [
+            "Smart bracelet"
+        ],
+        "Features4": [
+            "Blood pressure smart watch"
+        ],
+        "Features5": [
+            "Smart tracking wristband"
+        ],
+        "Support system": [
+            "Android  ISO  Windows  PC"
+        ],
+        "Business smart watch": [
+            "Casual smart watch"
+        ],
+        "Multifunctional smart watch": [
+            "High quality smart watch"
+        ],
+        "Sport Watch": [
+            "Fashion smart watch"
+        ],
+        "Steel smart watch": [
+            "Outdoor smart watch"
+        ],
+        "air pump blood pressure measurement": [
+            "Fitness Watch"
+        ],
+        "blood pressure smartwatch": [
+            "nursing grade smartwatch"
+        ],
+        "blood pressure watch": [
+            "nursing smart watch"
+        ],
+        "health watch nursing grade": [
+            "nursing grade smart watch"
+        ],
+        "smart watch 2025": [
+            "nursing grade smartwatch 2025"
+        ],
+        "smart watch 2025 men": [
+            "blood pressure smartwach"
+        ]
+    },
+    "tags_discovered": {
+        "Desktop Computer": {
+            "Brand Name": [
+                "AOTESIER",
+                "yeah magic",
+                "SZBOX",
+                "KH",
+                "GenMachine",
+                "MLLSE",
+                "Acer",
+                "Kllisre",
+                "PUSKILL",
+                "METALFISH",
+                "Aigo",
+                "SOYO"
+            ],
+            "Display Resolution": [
+                "I7 CPU",
+                "1920x1080"
+            ],
+            "Display Size": [
+                "&gt;30\"",
+                "22Inches 550mm",
+                "30\"",
+                "22\""
+            ],
+            "Hard Drive Capacity": [
+                "250GB",
+                "1TB",
+                "≥ 1.5TB",
+                "500GB",
+                "512GB"
+            ],
+            "Memory Capacity": [
+                "8 GB",
+                "16 GB",
+                "≥ 4GB",
+                "32 GB",
+                "12GB"
+            ],
+            "Operating System": [
+                "Windows 10",
+                "macOS"
+            ],
+            "RAM Type": [
+                "DDR3",
+                "DDR4"
+            ],
+            "Weight": [
+                "12",
+                "13kg",
+                "13.45kg",
+                "4KG",
+                "0.6kg",
+                "1.2",
+                "1KG"
+            ],
+            "Model Number": [
+                "Q22",
+                "AMD Ryzen 5 5600gt",
+                "JX2",
+                "K10",
+                "Ren5000 5300U",
+                "G2 Pro",
+                "R9",
+                "N100",
+                "S1",
+                "BLACK DIMOND-550M",
+                "AK800"
+            ],
+            "Resolution": [
+                "1920*1080"
+            ],
+            "Battery": [
+                "Yes"
+            ],
+            "Max Resolution": [
+                "7680 x 4320"
+            ],
+            "Storage": [
+                "250GB",
+                "1TB",
+                "≥ 1.5TB",
+                "500GB",
+                "512GB"
+            ],
+            "RAM": [
+                "8 GB",
+                "16 GB",
+                "≥ 4GB",
+                "32 GB",
+                "12GB"
+            ],
+            "Graphics Card Model": [
+                "MX250",
+                "RTX3060TI",
+                "Intel UHD Graphics"
+            ],
+            "Graphics Card Type": [
+                "Integrated Card",
+                "Dedicated Card"
+            ],
+            "Port": [
+                "vga",
+                "VGA/Audio/RJ45/USB/HDMI/RS232",
+                "USB2.0/USB3.0",
+                "USB3.0",
+                "USB2.0",
+                "Type-C",
+                "DP",
+                "Multiple interfaces",
+                "HDMI x1",
+                "D P x 1",
+                "Headphone Jack x2",
+                "LAN HDMI USB"
+            ],
+            "CPU": [
+                "I7 CPU"
+            ],
+            "Processor Model": [
+                "N5105",
+                "AMD Ryze 3 5300U",
+                "Twin Lake N150"
+            ],
+            "Function": [
+                "Choice",
+                "Battery",
+                "Built-In Microphone",
+                "Number Of Loudspeaker Enclosure",
+                "Number Of Devices Connectable Simultaneously",
+                "Support Memory Card",
+                "Cooling Fin",
+                "Package",
+                "Fans"
+            ],
+            "Battery Capacity": [
+                "500"
+            ]
+        },
+        "Tablet": {
+            "Brand Name": [
+                "Glavey",
+                "AEEZO-US",
+                "PRITOM",
+                "BDF",
+                "PJPK",
+                "elough"
+            ],
+            "Camera": [
+                "Second Webcam",
+                "Front Webcam"
+            ],
+            "Display Resolution": [
+                "1024x600",
+                "1280x800"
+            ],
+            "Display Size": [
+                "7\"",
+                "10.1\"",
+                "8\""
+            ],
+            "Memory Capacity": [
+                "1 GB",
+                "2 GB",
+                "4GB",
+                "3GB"
+            ],
+            "Operating System": [
+                "Android 6.0",
+                "Android 13",
+                "Android 12",
+                "Android 15",
+                "Android 11.0"
+            ],
+            "Panel Type": [
+                "IPS"
+            ],
+            "Network": [
+                "WiFi"
+            ],
+            "Color": [
+                "Black"
+            ],
+            "Material": [
+                "Glass"
+            ],
+            "RAM": [
+                "1 GB",
+                "2 GB",
+                "4GB",
+                "3GB"
+            ],
+            "Storage": [
+                "16 GB",
+                "32 GB",
+                "128 GB",
+                "64 GB"
+            ],
+            "Battery Capacity": [
+                "3000mAh",
+                "2500mAH",
+                "4000 MAH",
+                "4000 mah",
+                "3500MAH",
+                "5000"
+            ],
+            "Extend Port": [
+                "DC Jack",
+                "Earphone Jack",
+                "TF card",
+                "Micro USB",
+                "3G External",
+                "Type-C",
+                "OTG"
+            ],
+            "Network Communiction": [
+                "WiFi",
+                "Built-in 3G"
+            ],
+            "Function": [
+                "Package",
+                "Google Play",
+                "Choice",
+                "Semi_Choice",
+                "Battery Included",
+                "Inbox Adaptor",
+                "Amplifier"
+            ],
+            "Processor Model": [
+                "others",
+                "Arm"
+            ]
+        },
+        "Headset": {
+            "Brand Name": [
+                "QearFun",
+                "polttopuut",
+                "WYMECT",
+                "ATUOTIN",
+                "Razer",
+                "APWIKOGER",
+                "STTKGZD",
+                "KY-CROSEA",
+                "CEYYOR",
+                "VKTECH",
+                "ZOMBIES CAT",
+                "Briame",
+                "NUBWO",
+                "QCY",
+                "MCHOSE",
+                "Picun",
+                "BASEUS",
+                "Oneodio",
+                "Hichomeow"
+            ],
+            "Material": [
+                "Metal",
+                "Leather",
+                "ABS",
+                "Plastic",
+                "PC",
+                "Silica Gel"
+            ],
+            "Style": [
+                "Wired in-ear headphones",
+                "Ear Hook",
+                "Wireless headphone &amp; headset",
+                "Wired headphone &amp; headset"
+            ],
+            "Driver Size": [
+                "50mm"
+            ],
+            "Function": [
+                "Active Noise-Cancellation",
+                "Choice",
+                "Control Button",
+                "for Video Game",
+                "for Flying",
+                "Common Headphone",
+                "For Mobile Phone",
+                "HiFi Headphone",
+                "Sport",
+                "Kids' Headphones",
+                "For Outdoor",
+                "For Study",
+                "Sound Isolating",
+                "Volume Control",
+                "With Microphone",
+                "Semi_Choice",
+                "For Internet Bar",
+                "For Office",
+                "Is Wireless",
+                "Waterproof",
+                "For DJ",
+                "Support App",
+                "Number Of Drivers",
+                "Voice Assistant Built-In",
+                "Monitor Headphone"
+            ],
+            "Battery Capacity": [
+                "400",
+                "2000mAh",
+                "2000",
+                "1050",
+                "600mAh/2.22Wh",
+                "550mAh",
+                "800mah"
+            ]
+        },
+        "Headphones": {
+            "Brand Name": [
+                "URAO",
+                "NoEnName_Null",
+                "XMSJ",
+                "alloet",
+                "QearFun"
+            ],
+            "Camera": [
+                "Front Camera",
+                "Second Webcam",
+                "Front Webcam"
+            ],
+            "Display Resolution": [
+                "1280x800"
+            ],
+            "Display Size": [
+                "10\""
+            ],
+            "Memory Capacity": [
+                "≥8GB"
+            ],
+            "Operating System": [
+                "Android 15"
+            ],
+            "Panel Type": [
+                "IPS"
+            ],
+            "Connectivity": [
+                "Bluetooth"
+            ],
+            "Material": [
+                "Leather",
+                "Plastic"
+            ],
+            "Style": [
+                "Wired headphone &amp; headset"
+            ],
+            "Battery Capacity": [
+                "5000mAH"
+            ],
+            "Extend Port": [
+                "3G External",
+                "Earphone Jack",
+                "TF card",
+                "Type-C"
+            ],
+            "Function": [
+                "Google Play",
+                "Package",
+                "Choice",
+                "Semi_Choice",
+                "Control Button",
+                "for Video Game",
+                "for Flying",
+                "Common Headphone",
+                "For Mobile Phone",
+                "for Powersports",
+                "Kids' Headphones",
+                "For Outdoor",
+                "For Office",
+                "For Study",
+                "Max Output",
+                "Sound Isolating",
+                "Total Harmonic Distortion",
+                "Volume Control",
+                "With Microphone"
+            ],
+            "RAM": [
+                "≥8GB"
+            ],
+            "Network Communiction": [
+                "WiFi"
+            ],
+            "Processor Model": [
+                "others"
+            ],
+            "Storage": [
+                "64 GB"
+            ]
+        },
+        "Mobile Phone": {
+            "Brand Name": [
+                "OnePlus",
+                "BLINGCASE"
+            ],
+            "CPU Model": [
+                "MTK"
+            ],
+            "Cellular": [
+                "3G",
+                "2 G",
+                "4G",
+                "5 G"
+            ],
+            "Display Resolution": [
+                "2392*1080",
+                "240x320"
+            ],
+            "Display Size": [
+                "6.77",
+                "6.77\"",
+                "4.0\"",
+                "1.83\"",
+                "2.01\"",
+                "1.28\""
+            ],
+            "Color": [
+                "Rose",
+                "Pink",
+                "Black"
+            ],
+            "Material": [
+                "Plastics Hard Case"
+            ],
+            "Style": [
+                "Cute Style"
+            ],
+            "Battery Capacity": [
+                "6000-7499mAh",
+                "<3000 mAh"
+            ],
+            "Function": [
+                "Bluetooth Version",
+                "Built In Radiator",
+                "Built-In Gps",
+                "Front Camera Quantity",
+                "Mil-Std-810G",
+                "Nfc",
+                "Touch Screen",
+                "Wifi",
+                "3.5Mm Headphone Port",
+                "Choice",
+                "Rear Camera Quantity",
+                "Package",
+                "Semi_Choice",
+                "Band Detachable",
+                "Passometer",
+                "sleep tracker",
+                "Message Reminder",
+                "Call Reminder",
+                "Answer Call",
+                "Dial Call",
+                "Alarm Clock",
+                "Countdown",
+                "Calculators",
+                "Multiple Dials",
+                "App Download Available",
+                "fitness tracker",
+                "Push Message",
+                "24 hour instruction",
+                "Chronograph",
+                "Heart Rate Tracker",
+                "Calendar",
+                "Voice Assistant Built-In",
+                "Remote Control",
+                "World Time",
+                "Interactive Music",
+                "Gps",
+                "Mechanism",
+                "Permanent Calendar"
+            ],
+            "RAM": [
+                "<128MB"
+            ],
+            "Resolution": [
+                "240",
+                "430*430",
+                "240*240",
+                "240*260"
+            ]
+        },
+        "Laptop": {
+            "Battery": [
+                "2500mAh"
+            ],
+            "Brand Name": [
+                "NoEnName_Null",
+                "BDF",
+                "CHUWI",
+                "Apple",
+                "Erilles",
+                "StoreSkill",
+                "PUSKILL",
+                "SAMSUNG"
+            ],
+            "Hard Drive Capacity": [
+                "128 GB",
+                "512GB",
+                "256 GB"
+            ],
+            "Memory Capacity": [
+                "8 GB",
+                "2 GB"
+            ],
+            "Model Number": [
+                "Gole 1 Pro"
+            ],
+            "RAM": [
+                "8GB",
+                "12GB",
+                "16 GB",
+                "8 GB",
+                "2 GB"
+            ],
+            "Camera": [
+                "Front Camera",
+                "Second Webcam",
+                "Front Webcam"
+            ],
+            "Display Resolution": [
+                "1280x800",
+                "1920x1200",
+                "1920x1080",
+                "2160x1440"
+            ],
+            "Display Size": [
+                "10.3",
+                "10.51",
+                "12.3\"",
+                "13.3\"",
+                "14.1\"",
+                "10.3\"",
+                "10.51\""
+            ],
+            "Operating System": [
+                "Android 12",
+                "Windows 11",
+                "Apple Mac OS 10.14",
+                "Apple Mac OS 11 (Big Sur)"
+            ],
+            "Panel Type": [
+                "IPS"
+            ],
+            "Memory Type": [
+                "DDR5",
+                "DDR3",
+                "DDR4"
+            ],
+            "Storage": [
+                "128 GB",
+                "64 GB",
+                "512GB",
+                "256 GB"
+            ],
+            "Battery Life": [
+                "3 - 5",
+                "369 - 459",
+                "7-9",
+                "up to 7 - 9 hour",
+                "up to 4 - 6 hour",
+                "up to 8 hours"
+            ],
+            "Weight": [
+                "&lt; 1.5 KG",
+                "2.75 lbs",
+                "2.8 lbs",
+                "1.8 KG - 2.0 KG",
+                "< 1.5 KG"
+            ],
+            "CPU": [
+                "Intel Celeron J4105"
+            ],
+            "Graphics Card Type": [
+                "Integrated Card",
+                "Integrated"
+            ],
+            "Battery Capacity": [
+                "5000MAH/3.7V",
+                "5000"
+            ],
+            "Extend Port": [
+                "TF card",
+                "USB",
+                "Type-C"
+            ],
+            "Function": [
+                "Google Play",
+                "Package",
+                "Expandable Storage",
+                "Office/Entertainment/Gaming",
+                "Choice"
+            ],
+            "Network Communiction": [
+                "WiFi",
+                "Bluetooth-Compatible",
+                "WLAN",
+                "LAN"
+            ],
+            "Processor Model": [
+                "Arm",
+                "others"
+            ],
+            "Graphics Card Model": [
+                "Intel UHD",
+                "Intel UHD Graphics 617",
+                "Apple M1 8-core",
+                "Intel UHD Graphics",
+                "Radeon R5 M420"
+            ],
+            "Port": [
+                "2xUSB 2.0",
+                "2 x USB-C",
+                "2xUSB 3.0",
+                "Mini HDMI-Compatible",
+                "RJ-45",
+                "HDMI-Compatible"
+            ]
+        },
+        "MP3 Player": {
+            "Brand Name": [
+                "YOAINGO",
+                "CHOYONG",
+                "NoEnName_Null",
+                "gootrades",
+                "occkic",
+                "AEVYVKV",
+                "AideeMaster",
+                "FiiO"
+            ],
+            "Display Size": [
+                "1.8 inches",
+                "2\" - 4\"",
+                "1.4 inches",
+                "1.8\"",
+                "1.4\""
+            ],
+            "Model Number": [
+                "M1",
+                "002",
+                "MP3 Player",
+                "MP3 MP4"
+            ],
+            "Style": [
+                "MP3",
+                "MP4",
+                "Portable"
+            ],
+            "Display Resolution": [
+                "320x240"
+            ],
+            "Material": [
+                "Metal"
+            ],
+            "Battery Life": [
+                "&lt; 10 hours",
+                "&gt; 20 hours",
+                "< 10 hours",
+                "> 20 hours"
+            ],
+            "Function": [
+                "Balanced Out",
+                "Choice",
+                "External Memory",
+                "Bluetooth",
+                "Voice Recorder",
+                "E-Book Reading",
+                "Build in Speaker",
+                "Photo Viewer",
+                "Have Speakers Or Not",
+                "Package",
+                "Screen",
+                "Supports Ebook Reading",
+                "Supports Recording Function",
+                "Touch Screen",
+                "FM Radio",
+                "Digital Camera",
+                "World Clock",
+                "Touch Keys",
+                "Voice recorder"
+            ]
+        },
+        "Portable Speaker": {
+            "Brand Name": [
+                "MAIMEIMI",
+                "yggcoo",
+                "YIYUEQIANLI",
+                "T&amp;G",
+                "kebidumei"
+            ],
+            "Battery": [
+                "Yes"
+            ],
+            "Material": [
+                "Others",
+                "Rubber",
+                "Plastic",
+                "Metal"
+            ],
+            "Impedance": [
+                "2-4 Ohm"
+            ],
+            "Output Power": [
+                "175W"
+            ],
+            "Function": [
+                "Battery",
+                "Channels",
+                "Number Of Loudspeaker Enclosure",
+                "Support Memory Card",
+                "Choice",
+                "Waterproof",
+                "Semi_Choice",
+                "Built-In Microphone",
+                "Total Harmonic Distortion",
+                "Voice Control"
+            ],
+            "Battery Capacity": [
+                "500"
+            ]
+        },
+        "Pet Collar & Harness": {
+            "Brand Name": [
+                "EASTONG"
+            ],
+            "Material": [
+                "Nylon"
+            ],
+            "Function": [
+                "Choice",
+                "Semi_Choice"
+            ]
+        },
+        "Communication": {
+            "Model Number": [
+                "P8668"
+            ],
+            "Function": [
+                "Choice",
+                "Semi_Choice"
+            ]
+        },
+        "Smart Watch": {
+            "Battery Capacity": [
+                "220-300mah",
+                "300-450mah",
+                ">450mAh",
+                "<120mAh"
+            ],
+            "Brand Name": [
+                "INNOFOVO",
+                "Odelettevcy"
+            ],
+            "Display Size": [
+                "1.32",
+                "1.83",
+                "1.32\"",
+                "1.83\"",
+                "2.01\"",
+                "1.73\"",
+                "2.04\"",
+                "1.91\"",
+                "1.1\"",
+                "1.96\"",
+                "44\""
+            ],
+            "RAM": [
+                "&lt;128MB",
+                "<128MB",
+                "128 MB",
+                "1 GB",
+                "256 MB"
+            ],
+            "Resolution": [
+                "360p",
+                "240*296",
+                "240*284",
+                "240",
+                "128*160",
+                "240/482",
+                "368*448",
+                "240*280",
+                "126*294",
+                "320*386",
+                "240*260"
+            ],
+            "Style": [
+                "Fashion",
+                "SPORT"
+            ],
+            "Battery Life": [
+                "7",
+                "2-3day",
+                "5 days",
+                "3",
+                "12h",
+                "1",
+                "3 day",
+                "5",
+                "30Day",
+                "5-7 day",
+                "24"
+            ],
+            "Compatibility": [
+                "All Compatible"
+            ],
+            "Function": [
+                "App Download Available",
+                "Band Detachable",
+                "Passometer",
+                "fitness tracker",
+                "sleep tracker",
+                "Message Reminder",
+                "Call Reminder",
+                "Answer Call",
+                "Push Message",
+                "Calorie Counter",
+                "Heart Rate Tracker",
+                "Gps",
+                "Mechanism",
+                "Multiple Dials",
+                "Touch Screen",
+                "Voice Assistant Built-In",
+                "Wi-Fi",
+                "Dial Call",
+                "Alarm Clock",
+                "Choice",
+                "Noctilucent",
+                "Calendar",
+                "Countdown",
+                "Calculators",
+                "Mood Tracker",
+                "Remote Control",
+                "Big Three Needles",
+                "24 hour instruction",
+                "Chronograph",
+                "Small Second",
+                "World Time",
+                "Permanent Calendar",
+                "Multiple Time Zone",
+                "Power Reserve",
+                "GMT Two Places",
+                "Perspective Window",
+                "week",
+                "Speed Measurement",
+                "Month",
+                "Interactive Music",
+                "Lighting",
+                "Wifi",
+                "Thermometer",
+                "Oxymeter",
+                "Shock Resistant",
+                "Phase of the Moon",
+                "Sim Card Available",
+                "Sim Card Slot",
+                "Semi_Choice",
+                "Altitude Meter",
+                "tourbillon",
+                "DIVER",
+                "PRAYER",
+                "Moisture Measurement",
+                "Attemper",
+                "Compass",
+                "Battery Life"
+            ]
+        },
+        "Power Tools": {
+            "Brand Name": [
+                "VaKee"
+            ],
+            "Model Number": [
+                "HJ021"
+            ],
+            "Weight": [
+                "150"
+            ],
+            "Function": [
+                "Battery Included",
+                "Choice"
+            ]
+        },
+        "Soldering Tools": {
+            "Brand Name": [
+                "HYOXL"
+            ],
+            "Model Number": [
+                "908/908-02/908-06"
+            ],
+            "Voltage": [
+                "Others"
+            ],
+            "Function": [
+                "Choice",
+                "Is Smart Device"
+            ]
+        },
+        "Power Supply": {
+            "Brand Name": [
+                "T.F.SKYWINDINTL",
+                "METALFISH"
+            ],
+            "Model Number": [
+                "sfx400",
+                "SFX-600W",
+                "500WATX"
+            ],
+            "Function": [
+                "Choice",
+                "Fans",
+                "Package"
+            ]
+        },
+        "Computer Component": {
+            "Brand Name": [
+                "MLLSE"
+            ],
+            "Max Resolution": [
+                "4096 x 2160"
+            ],
+            "Function": [
+                "Choice",
+                "Package"
+            ]
+        },
+        "Graphics Card": {
+            "Brand Name": [
+                "SOYO"
+            ],
+            "Max Resolution": [
+                "4096 x 2160"
+            ],
+            "Power Connector": [
+                "6pin"
+            ]
+        },
+        "CPU": {
+            "Brand Name": [
+                "Intel",
+                "AMD"
+            ],
+            "Socket Type": [
+                "LGA1200",
+                "LGA 1155",
+                "LGA 2011-3",
+                "AM4",
+                "LGA 2011-V3"
+            ],
+            "Thread Count": [
+                "12",
+                "36",
+                "32"
+            ],
+            "Core Count": [
+                "Eight Core",
+                "Six Core",
+                "Fourteen Cores"
+            ],
+            "Function": [
+                "Choice"
+            ]
+        },
+        "Craft Paint, Ink & Glaze": {
+            "Function": [
+                "Choice"
+            ]
+        },
+        "Electronic": {
+            "Function": [
+                "Choice",
+                "Is Batteries Included",
+                "Semi_Choice"
+            ]
+        },
+        "CarPlay Adapter": {
+            "Function": [
+                "Choice"
+            ],
+            "Interface": [
+                "Car USB or Type-C"
+            ]
+        },
+        "Stylus Pen": {
+            "Function": [
+                "Choice",
+                "Semi_Choice"
+            ]
+        }
+    }
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "type_name": "Graphics Card",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "graphics card", "video card", "radeon rx", "geforce gtx", "geforce rtx",
+      "rx 580", "rx 6600", "rx5700", "gtx 750", "rtx 4060", "placa de video",
+      "gpu gddr", "gddr6 gpu", "gddr5 gpu"
+    ],
+    "common_specs": [
+      "GPU", "Memory Type", "Memory Capacity", "Interface", "Bit Width",
+      "Cooling", "Power Connector", "Max Resolution"
+    ]
+  },
+  {
+    "type_name": "CPU",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "cpu processor", "quad core cpu", "six-core cpu", "octa-core cpu",
+      "core i5", "core i7", "core i9", "xeon e3", "xeon e5",
+      "ryzen 5", "ryzen 7", "ryzen 9", "lga 1200", "lga 1155", "lga 2011",
+      "socket am4", "socket am5"
+    ],
+    "common_specs": [
+      "Processor Speed", "Core Count", "Thread Count", "Socket Type",
+      "Cache", "TDP", "Lithography"
+    ]
+  },
+  {
+    "type_name": "RAM",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "ddr4 ram", "ddr3 ram", "ddr5 ram", "ddr3l notebook", "ddr4 sodimm",
+      "ddr3 sodimm", "laptop memory", "desktop memory", "memoria ram",
+      "sodimm memoria", "dimm memory", "udimm", "lpddr5"
+    ],
+    "common_specs": [
+      "Memory Capacity", "Memory Speed", "Memory Type", "Voltage",
+      "Form Factor", "Latency"
+    ]
+  },
+  {
+    "type_name": "Power Supply",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "power supply", "flex psu", "atx psu", "sfx psu", "flex-atx",
+      "80plus gold", "80plus bronze", "full modular psu", "modular power",
+      "pc power supply", "psu 500w", "psu 600w", "psu 700w", "psu 800w"
+    ],
+    "common_specs": [
+      "Wattage", "Efficiency Rating", "Modularity", "Form Factor",
+      "Fan Size", "Connectors"
+    ]
+  },
+  {
+    "type_name": "Security Camera",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "security camera", "ip camera", "wifi camera", "surveillance camera",
+      "cctv", "baby monitor cam", "hunting camera", "pinhole camera",
+      "outdoor camera", "indoor camera", "mini wifi camera", "solar camera",
+      "4g camera", "lte camera", "p2p camera", "webcam loop", "camcorder p2p"
+    ],
+    "common_specs": [
+      "Resolution", "Night Vision", "Field of View", "Connectivity",
+      "Storage", "Power Source", "Waterproof Rating"
+    ]
+  },
+  {
+    "type_name": "Smart Watch",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "smartwatch", "smart watch", "fitness tracker", "kids smart watch",
+      "kids watch", "digital watch", "sports watch", "gps watch",
+      "heart rate watch", "bluetooth call watch"
+    ],
+    "common_specs": [
+      "Display Size", "Battery Life", "Connectivity", "Water Resistance",
+      "Health Sensors", "Compatibility", "Strap Material"
+    ]
+  },
+  {
+    "type_name": "CarPlay Adapter",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "wireless carplay", "android auto adapter", "carplay adapter",
+      "carplay android auto", "ai box carplay", "ottocast", "ottaibox",
+      "wireless apple carplay"
+    ],
+    "common_specs": [
+      "Connectivity", "Compatible Models", "Interface"
+    ]
+  },
+  {
+    "type_name": "VR Accessory",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "meta quest", "oculus quest", "vr glasses", "virtual reality",
+      "vr headset", "quest 3", "quest 2", "vr stand", "vr holder"
+    ],
+    "common_specs": [
+      "Compatible Device", "Material", "Type"
+    ]
+  },
+  {
+    "type_name": "MP3 Player",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "mp3 player", "mp4 player", "music player", "hifi player",
+      "lossless player", "walkman", "portable music player",
+      "mp3 mp4 player", "bluetooth mp3"
+    ],
+    "common_specs": [
+      "Storage", "Display Size", "Battery Life", "Connectivity",
+      "Output", "File Format Support"
+    ]
+  },
+  {
+    "type_name": "Portable Speaker",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "bluetooth speaker", "portable speaker", "wireless speaker",
+      "mini speaker", "soundbar boombox", "outdoor speaker",
+      "waterproof speaker", "car speaker", "subwoofer speaker"
+    ],
+    "common_specs": [
+      "Output Power", "Battery Life", "Connectivity", "Waterproof Rating",
+      "Color", "Driver Size"
+    ]
+  },
+  {
+    "type_name": "Microphone",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "lavalier microphone", "wireless microphone", "lavalier mic",
+      "wireless mic", "recording microphone", "condenser mic",
+      "audio recording mic"
+    ],
+    "common_specs": [
+      "Connectivity", "Frequency Response", "Pattern", "Compatible Devices",
+      "Battery Life"
+    ]
+  },
+  {
+    "type_name": "Phone Holder",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "phone holder", "bike phone holder", "handlebar mount",
+      "phone mount", "cycling bracket", "motorcycle phone holder",
+      "phone bracket", "cellphone stand", "phone stand mount"
+    ],
+    "common_specs": [
+      "Compatible Size", "Material", "Mount Type", "Rotation"
+    ]
+  },
+  {
+    "type_name": "Stylus Pen",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "stylus pen", "digital pen", "touch pen", "screen touch pen",
+      "magnetic digital pen", "universal stylus", "tablet pen",
+      "drawing pen tablet", "active stylus"
+    ],
+    "common_specs": [
+      "Compatible Devices", "Connectivity", "Tip Type", "Charging"
+    ]
+  },
+  {
+    "type_name": "Phone Case",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "phone case", "phone cover", "z flip case", "zflip cover",
+      "iphone case", "samsung case", "personalized phone cover",
+      "custom phone case", "silicone phone case"
+    ],
+    "common_specs": [
+      "Compatible Model", "Material", "Color", "Style"
+    ]
+  },
+  {
+    "type_name": "Tablet Case",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "tablet case", "tablet cover", "tablet stand", "ipad case",
+      "kids tablet case", "shockproof tablet", "tablet funda",
+      "eva tablet case", "tablet folio"
+    ],
+    "common_specs": [
+      "Compatible Model", "Material", "Color", "Features"
+    ]
+  },
+  {
+    "type_name": "HDMI Switch",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "hdmi switch", "kvm switch", "video switcher", "hdmi splitter",
+      "hdmi hub", "3 port switcher", "4k hdmi switch"
+    ],
+    "common_specs": [
+      "Ports", "Max Resolution", "Supported Formats", "Input", "Output"
+    ]
+  },
+  {
+    "type_name": "USB Adapter",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "usb otg adapter", "type c adapter", "otg usb", "usb c converter",
+      "usb hub", "usb 3.2 adapter", "usb c hub", "audio data transfer"
+    ],
+    "common_specs": [
+      "Connector Type", "Transfer Speed", "Power Delivery", "Compatible Devices"
+    ]
+  },
+  {
+    "type_name": "Keyboard",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "bluetooth keyboard", "wireless keyboard", "tablet keyboard",
+      "keyboard with touchpad", "backlit keyboard", "keyboard mouse",
+      "ipad keyboard", "teclado bluetooth"
+    ],
+    "common_specs": [
+      "Connectivity", "Compatible Devices", "Layout", "Backlight", "Battery"
+    ]
+  },
+  {
+    "type_name": "SSD Enclosure",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "ssd enclosure", "m.2 enclosure", "nvme enclosure", "ssd box",
+      "ssd case", "m2 ssd case", "m.2 ssd enclosure", "nvme case"
+    ],
+    "common_specs": [
+      "Interface", "Transfer Speed", "Compatible SSD Type", "Material"
+    ]
+  },
+  {
+    "type_name": "LCD Digitizer",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "touch screen digitizer", "lcd display replacement", "digitizer panel",
+      "ipad screen replacement", "tablet lcd", "display module replacement"
+    ],
+    "common_specs": [
+      "Compatible Model", "Resolution", "Touch Type"
+    ]
+  },
+  {
+    "type_name": "Art Supplies",
+    "shopify_category": "Arts & Crafts",
+    "identification_keywords": [
+      "coloring book", "drawing book", "marker pen", "art marker",
+      "diamond painting", "graffiti book", "doodle book", "paint book",
+      "acrylic marker", "metallic marker", "gel pen art", "sketch marker",
+      "coloring game", "double line pen", "permanent marker"
+    ],
+    "common_specs": [
+      "Color Count", "Material", "Style", "Page Count", "Ink Type"
+    ]
+  },
+  {
+    "type_name": "Plush Toy",
+    "shopify_category": "Toys & Games",
+    "identification_keywords": [
+      "plush toy", "plush doll", "stuffed doll", "stuffed animal",
+      "plushie", "sprunki plush", "game pillow plush", "soft toy"
+    ],
+    "common_specs": [
+      "Size", "Material", "Color", "Age Group"
+    ]
+  },
+  {
+    "type_name": "Soldering Tools",
+    "shopify_category": "Tools & Hardware",
+    "identification_keywords": [
+      "soldering iron", "soldering kit", "welding iron", "usb soldering",
+      "solder station", "soldering rework", "soldering tip"
+    ],
+    "common_specs": [
+      "Wattage", "Temperature Range", "Kit Contents", "Interface"
+    ]
+  },
+  {
+    "type_name": "Power Tools",
+    "shopify_category": "Tools & Hardware",
+    "identification_keywords": [
+      "electric drill", "mini drill", "rotary tool", "engraving pen",
+      "usb drill", "cordless drill", "hand drill", "mini polisher",
+      "mini grinder", "dremel tool"
+    ],
+    "common_specs": [
+      "Voltage", "Speed", "Chuck Size", "Battery", "Accessories"
+    ]
+  },
+  {
+    "type_name": "Sewing Machine",
+    "shopify_category": "Home & Garden",
+    "identification_keywords": [
+      "sewing machine", "mini sewing machine", "tailor machine",
+      "portable sewing", "diy sewing"
+    ],
+    "common_specs": [
+      "Type", "Power", "Stitch Modes", "Portability"
+    ]
+  },
+  {
+    "type_name": "Laptop",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "gaming laptop", "ultrabook laptop", "2-in-1 laptop",
+      "thinkpad", "macbook", "chromebook", "notebook computer",
+      "laptop computer", "notebook pc", "slim laptop", "laptop intel",
+      "laptop amd", "convertible laptop", "laptop windows"
+    ],
+    "common_specs": [
+      "Processor", "RAM", "Storage", "Display Size", "Operating System",
+      "Graphics Card", "Refresh Rate", "Battery Life", "Weight"
+    ]
+  },
+  {
+    "type_name": "Mobile Phone",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "mobile phone", "smartphone", "iphone", "android phone",
+      "unlocked phone", "dual-sim phone", "cell phone",
+      "5g phone", "4g phone", "pixel phone"
+    ],
+    "common_specs": [
+      "Storage", "RAM", "Display Size", "Cellular", "Battery Capacity",
+      "Camera Resolution", "Processor", "Charging Speed"
+    ]
+  },
+  {
+    "type_name": "Tablet",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "kid tablet", "android tablet", "tablet pc", "tablet android",
+      "kids tablet", "drawing tablet", "e-reader", "galaxy tab",
+      "ipad", "surface pro", "tablet inch"
+    ],
+    "common_specs": [
+      "Storage", "RAM", "Display Size", "Operating System",
+      "Battery", "Connectivity"
+    ]
+  },
+  {
+    "type_name": "Desktop Computer",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "gaming desktop", "mini pc", "mini computer", "gamer desktop",
+      "desktop computer", "gaming pc", "all-in-one pc", "tower pc",
+      "small form factor", "barebone", "pocket pc", "imac"
+    ],
+    "common_specs": [
+      "Processor", "RAM", "Storage", "Graphics Card", "Operating System",
+      "Cooling", "Chipset"
+    ]
+  },
+  {
+    "type_name": "Monitor",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "gaming monitor", "4k monitor", "ultrawide monitor", "curved monitor",
+      "led monitor", "ips monitor", "va monitor", "office monitor"
+    ],
+    "common_specs": [
+      "Display Size", "Resolution", "Refresh Rate", "Panel Type",
+      "Response Time", "HDR", "Connectivity"
+    ]
+  },
+  {
+    "type_name": "Gaming Console",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "playstation 5", "xbox series", "nintendo switch", "ps5 console",
+      "handheld console", "game console", "retro console"
+    ],
+    "common_specs": [
+      "Storage", "Color", "Bundle", "Resolution Support"
+    ]
+  },
+  {
+    "type_name": "Headphones",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "noise cancelling headphones", "wireless headphones", "gaming headset",
+      "over-ear headphones", "in-ear headphones", "bluetooth headphones",
+      "earbuds wireless", "tws earbuds", "bone conduction headphone",
+      "airpods", "earbud mic", "hifi earphone"
+    ],
+    "common_specs": [
+      "Connectivity", "Driver Size", "Noise Cancellation",
+      "Battery Life", "Microphone", "Waterproof Rating", "Color"
+    ]
+  },
+  {
+    "type_name": "Printer",
+    "shopify_category": "Electronics",
+    "identification_keywords": [
+      "inkjet printer", "laser printer", "thermal printer",
+      "photo printer", "all-in-one printer", "label printer"
+    ],
+    "common_specs": [
+      "Print Technology", "Connectivity", "Paper Size",
+      "Print Speed", "Max Resolution"
+    ]
+  }
+]
